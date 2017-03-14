@@ -43,9 +43,16 @@ def dataFromPage():
 			html = Soup(getPage(link), 'html.parser')
 			data.append(html.find('h1', {'class': 'listing_title'}).get_text());
 			information = html.find_all('div', {'class': 'table_td'})
-			for i in range(5, 10):
-				data.append(information[i].get_text())
-			f.write('{"listing": {"title": "%s", "address": "%s", "distanceToCampus": "%s", "bedroom": "%s", "bathroom": "%s", "rent": "%s"}}, \n' % tuple(data))
+			for i in range(1, 4):
+				data.append('null')
+			for i in range(5, 15):
+				if ', Atlanta, GA' in information[i].get_text():
+					data[1] = information[i].get_text()
+				elif ' miles' in information[i].get_text():
+					data[2] = information[i].get_text()
+				elif '$' in information[i].get_text():
+					data[3] = information[i].get_text() 
+			f.write('{"listing": {"title": "%s", "address": "%s", "distanceToCampus": "%s", "rent": "%s"}}, \n' % tuple(data))
 		f.write(']')
 		print("I'm done!")
 
