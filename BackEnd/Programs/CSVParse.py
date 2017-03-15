@@ -1,6 +1,7 @@
-import sys, csv, getopt
+import sys, csv, getopt, os
 
 # Script that parses APD data and generates MVC Array
+# Running this script will parse all of the files currently in the RawCSV folder
 
 inFile = sys.argv
 locations = {}
@@ -8,7 +9,7 @@ outfile = '../Database/latLong.js'
 
 def main(argv):
 	for file in argv:
-		inf = open(file,'r')
+		inf = open('../RawCSV/' + file,'r')
 		next(inf)
 		line_words = (line.split(',') for line in inf)
 		for words in line_words:
@@ -27,4 +28,7 @@ def main(argv):
 	outf.writelines(']; \n')
 
 if __name__ == "__main__":
-	main(sys.argv[1:])
+	files = []
+	for f in os.listdir('../RawCSV'):
+		files.append(f)
+	main(files)
