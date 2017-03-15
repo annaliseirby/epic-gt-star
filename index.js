@@ -140,20 +140,29 @@
       name: "530 West Peachtree St NW",
       price: 1100
   }, ];
+$( document ).ready(function() {
+ for (i = 0; i < list.length; i++) {
+      var name = list[i].name;
+      var price = list[i].price;
+
+      $("#listAddresses").append("<li class='list-group-item'>" + name + " " + price + "</li>");
+  };
+});
+
 
   var map;
   var address =[];
   var description = [];
   var geoInfor = [];
   var infoArray = [];
-  $.getJSON("./listings.json", function (data) {
-      // I have placed alert here previously and realized it doesn't go into here
-      $.each(data, function (i, item) {
-          address.push(item.listing.address);
-
-          description.push(item.listing.title);
-      });
-  });
+//  $.getJSON("./listings.json", function (data) {
+//      // I have placed alert here previously and realized it doesn't go into here
+//      $.each(data, function (i, item) {
+//          address.push(item.listing.address);
+//
+//          description.push(item.listing.title);
+//      });
+//  });
       function initMap() {
 
        map = new google.maps.Map(document.getElementById('map'), {

@@ -6,6 +6,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!--<link href="bootstrap-slider.css" rel="stylesheet">-->
 	<!--<script src="bootstrap-slider.js"></script>-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="index.js"></script>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="main.css">
@@ -16,13 +18,23 @@
         Title
     </div>
     <div id="rightColumn">
-        <div id="filterZone">filter
-        <input type = "number" name="minPrice">
-        <input type = "number" name="maxPrice">
-        <button id = "submit">Submit</button>
+        <div id="filterZone">
+            <input type = "number" name="minPrice"> min price
+            <input type = "number" name="maxPrice"> max price
+            <button id = "submit">Submit</button>
+            <br><br>
             <button onclick="toggleHeatmap()">Toggle Heatmap</button>
         </div>
-        <div id="resultList">resultList</div>
+        <div id="resultList">
+            <br>
+            <div class="list-group" id="listAddresses">
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">First List Group Item Heading</h4>
+                    <p class="list-group-item-text">List Group Item Text</p>
+                </a>
+
+            </div>
+        </div>
     </div>
     <div id="map"></div>
     </div>
