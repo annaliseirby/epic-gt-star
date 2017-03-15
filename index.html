@@ -4,8 +4,8 @@
     <title>Simple Map</title>
     <meta name="viewport" content="initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link href="bootstrap-slider.css" rel="stylesheet">
-	<script src="bootstrap-slider.js"></script>
+    <!--<link href="bootstrap-slider.css" rel="stylesheet">-->
+	<!--<script src="bootstrap-slider.js"></script>-->
     <script src="index.js"></script>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="main.css">
@@ -20,7 +20,7 @@
         <input type = "number" name="minPrice">
         <input type = "number" name="maxPrice">
         <button id = "submit">Submit</button>
-
+            <button onclick="toggleHeatmap()">Toggle Heatmap</button>
         </div>
         <div id="resultList">resultList</div>
     </div>
@@ -29,6 +29,6 @@
     <script>
 
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnLvm9iFfzjSfknLdWFMMLWWTiGxfBXh4&callback=initMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnLvm9iFfzjSfknLdWFMMLWWTiGxfBXh4&libraries=visualization&callback=initMap">
     </script>
 </body>
