@@ -15,25 +15,19 @@
 
 <body>
     <div id="Title">
-        Title
+        Finding Residency
     </div>
     <div id="rightColumn">
         <div id="filterZone">
             <input type = "number" name="minPrice"> min price
-            <input type = "number" name="maxPrice"> max price
+            <input type = "number" name="maxPrice"> max price<br><br>
             <button id = "submit">Submit</button>
             <br><br>
             <button onclick="toggleHeatmap()">Toggle Heatmap</button>
         </div>
         <div id="resultList">
             <br>
-            <div class="list-group" id="listAddresses">
-                <a href="#" class="list-group-item">
-                    <h4 class="list-group-item-heading">First List Group Item Heading</h4>
-                    <p class="list-group-item-text">List Group Item Text</p>
-                </a>
-
-            </div>
+            <div class="list-group" id="listAddresses"></div>
         </div>
     </div>
     <div id="map"></div>
