@@ -169,11 +169,14 @@
                draggable: true,
                infowindow: myinfowindow
            });
+           var myContent = "Address:" + list[i].address + "\n" + "Price:" + list[i].price;
            var myinfowindow = new google.maps.InfoWindow({
-               content: list[i].name
+               content: myContent,
            });
-           marker.addListener('click', function() {
-               myinfowindow.open(map, marker);
+
+           google.maps.event.addListener(marker, 'click', function() {
+               this.infowindow.open(map, this);
+
            });
        }
 
