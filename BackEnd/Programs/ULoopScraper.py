@@ -24,9 +24,11 @@ def savePage(url):
 		html += getPage(url % (min_rent, max_rent, i))
 		print(i)
 
+# Returns a new Beautiful soup object
 def openFile():
 	return Soup(html, 'html.parser')
 
+# Finds the number of pages that needs to be returned and returns it
 def findNumPages():
 	global html
 	html = getPage(ULOOP_URL % (min_rent, max_rent, 1))

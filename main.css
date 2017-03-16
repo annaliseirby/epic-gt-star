@@ -7,14 +7,13 @@
 
 #map {
     float: left;
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 80vh;
 }
 
 #rightColumn {
     float: left;
     width: 20%;
-    height: 90%;
 }
 
 #filterZone {
@@ -27,6 +26,7 @@
     float: left;
     width: 100%;
     height: 70%;
+    overflow: scroll;
 }
 
 html,
