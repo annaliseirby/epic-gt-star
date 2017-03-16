@@ -1,3 +1,8 @@
+//Author:Shuopeng Zhou, Implement basic functional map
+//Everything now still be fake data
+
+//TODO:Implement lists' buttons which make them point to each object
+//TODO:PHP + mySQL backend implementation required
 
   var list = [{
       geoCode: {
@@ -169,23 +174,30 @@
   }, ];
 
 
+/*Initialize the resultList with 5 lowest price marker*/
 
 $( document ).ready(function() {
     var listByPrice = list;
+    var tempList = ["1"];
 //Only list 5 apartments with best price
-    listByPrice.sort(function(a, b){return a.price-b.price});
- for (i = 0; i < 5; i++) {
-      var name = listByPrice[i].name;
-      var price = listByPrice[i].price;
+    listByPrice.sort(function (a, b) {
+        return a.price - b.price
+    });
+    for (i = 0; i < 5; i++) {
+        var name = listByPrice[i].name;
+        var price = listByPrice[i].price;
+        var temp = i;
+        $("#listAddresses").append("<li class='list-group-item'>" + "Name:" + name + " <br>" + "Price:" + price + " " +
+            "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type='button' class='btn btn-info' + " + "id = button" + i + ">"
+            + "ShowDetails</button>" + "</li>");
+        tempList.push(name);
+    }
+ });
 
-      $("#listAddresses").append("<li class='list-group-item'>" + "Name:" + name + " <br>" + "Price:" + price + "</li>");
-  };
-});
 
-
-  var map;
-  var address =[];
-  var description = [];
+  var map;   //Map object
+  var address =[];   //Address array to store all arrays
+  var description = [];   //Description to store all markers'  descriptions
   var geoInfor = [];
   var infoArray = [];
   var markerArray = [];
@@ -246,6 +258,10 @@ $( document ).ready(function() {
              }
          }
      }
+     function findMarker(i){
+         console.log(i);
+         // map.panTo(markerArray[i].position);
+     }
      function changeGradient() {
        var gradient = [
          'rgba(0, 255, 255, 0)',
@@ -279,10 +295,9 @@ $( document ).ready(function() {
      function resetResultList(minPrice, maxPrice) {
          $("#listAddresses").empty()
          for (i = 0; i < result.length; i++){
-             $("#listAddresses").append("<li class='list-group-item' id = 'list'" + i +">" + "Name:" + result[i].name + " <br>" + "Price:" + result[i].price + "</li>");
-             $(".list-group-item").click(function() {
-                 showMarker(markerArray[i]);
-             });
+             $("#listAddresses").append("<li class='list-group-item' id = 'list'" + i +">" + "Name:" + result[i].name + " <br>" + "Price:" + result[i].price +
+                     "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type='button' class='btn btn-info' + " + "id = button" + i + ">"
+                 + "ShowDetails</button>" + "</li>");
 
          }
      }
