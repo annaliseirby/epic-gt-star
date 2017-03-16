@@ -2,7 +2,9 @@
     float: left;
     height: 10%;
     width: 100%;
+    padding-bottom: 6%;
     font-size: 60px;
+    text-align: center;
 }
 
 #map {
@@ -20,12 +22,24 @@
     float: left;
     width: 100%;
     height: 30%;
+    padding-left: 5%;
 }
-
+#filterZone .form-group{
+    padding-right:5%;
+}
+#filterZone #panel1 {
+    margin-top: -10%;
+    margin-bottom:5%;
+    margin-left: 5%;
+}
+#filterZone #panel1 .button{
+    margin-left: 1%;
+}
 #resultList {
     float: left;
     width: 100%;
     height: 70%;
+
 }
 
 html,
@@ -33,5 +47,6 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow:hidden;
 }
 /* Optional: Makes the sample page fill the window. */

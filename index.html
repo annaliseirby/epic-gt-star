@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
     <title>Simple Map</title>
     <meta name="viewport" content="initial-scale=1.0">
@@ -15,22 +15,35 @@
 
 <body>
     <div id="Title">
-        Title
+        Epic-gt-star Project Demo :)
     </div>
     <div id="rightColumn">
         <div id="filterZone">
-            <input type = "number" name="minPrice"> min price
-            <input type = "number" name="maxPrice"> max price
-            <button id = "submit">Submit</button>
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Minimum Price</label>
+                    <input type="text" class="form-control" id="minPrice" placeholder="Minimum Price">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Max Price</label>
+                    <input type="text" class="form-control" id="maxPrice" placeholder="Maximum Price">
+                </div>
+            </form>
             <br><br>
-            <button onclick="toggleHeatmap()">Toggle Heatmap</button>
+            <div id = "panel1">
+            <button type="button" class="btn btn-primary" onClick = "refreshMap()">Submit</button>
+
+            <button type="button" class="btn btn-danger" onClick = "resetMap()">Reset Map</button>
+            </div>
+            <div id = "panel2">
+            <button type="button" class="btn btn-info" onclick="toggleHeatmap()">ShowHeatMap</button>
+
+            <button type="button" class="btn btn-warning" onclick="centerTheMap()">Center Map</button>
+            </div>
         </div>
         <div id="resultList">
             <br>
             <div class="list-group" id="listAddresses">
-                <a href="#" class="list-group-item">
-                    <h4 class="list-group-item-heading">First List Group Item Heading</h4>
-                    <p class="list-group-item-text">List Group Item Text</p>
                 </a>
 
             </div>

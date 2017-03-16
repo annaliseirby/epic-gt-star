@@ -12,140 +12,173 @@
           lng: -84.391037
       },
       name: "630 Williams St NW",
-      price: 1000
+      price: 1000,
+      distance:"0.2mile"
+  }, {
+      geoCode:{
+          lat:33.799548,
+          lng:-84.470888
+      },
+      name :"Dwell at The View 1620 Hollywood Rd NW Atlanta, GA 30318",
+      price:1000
   }, {
       geoCode: {
           lat: 33.770260,
           lng: -84.389442
       },
       name: "570 Spring St NW",
-      price: 800
+      price: 800,
+      distance:"0.3mile"
   }, {
       geoCode: {
           lat: 33.773286,
           lng: -84.412799
       },
       name: "777 Donald Lee Hollowell Pkwy NW",
-      price: 650
+      price: 650,
+      distance:"0.4mile"
   }, {
       geoCode: {
           lat: 33.786543,
           lng: -84.397500
       },
       name: "321 14th St NW",
-      price: 560
+      price: 560,
+      distance:"0.2mile"
   }, {
       geoCode: {
           lat: 33.787147,
           lng: -84.398983
       },
       name: "1186 State St NW",
-      price: 780
+      price: 780,
+      distance:"0.2mile"
   }, {
       geoCode: {
           lat: 33.766227,
           lng: -84.393291
       },
       name: "430 Lovejoy St NW",
-      price: 810
+      price: 810,
+      distance:"0.2mile"
   }, {
       geoCode: {
           lat: 33.767565,
           lng: -84.391155
       },
       name: "102 Pine St NW",
-      price: 640
+      price: 640,
+      distance:"0.2mile"
   }, {
       geoCode: {
           lat: 33.773770,
-          lng: -84.387746
+          lng: -84.387746,
+          distance:"0.2mile"
       },
       name: "696 West Peachtree St NW",
-      price: 450
+      price: 450,
+      distance:"0.5mile"
   }, {
       geoCode: {
           lat: 33.776508,
           lng: -84.391587
       },
       name: "801 Techwood Dr NW",
-      price: 840
+      price: 840,
+      distance:"0.6mile"
   }, {
       geoCode: {
           lat: 33.780280,
           lng: -84.385225
       },
       name: "77 Peachtree Pl NE",
-      price: 640
+      price: 640,
+      distance:"0.6"
   }, {
       geoCode: {
           lat: 33.775884,
           lng: -84.381888
       },
       name: "165 5th St NE",
-      price: 780
+      price: 780,
+      distance:"0.3"
   }, {
       geoCode: {
           lat: 33.769543,
           lng: -84.384978
       },
       name: "549 Peachtree St NE",
-      price: 730
+      price: 730,
+      distance:"0.2"
   }, {
       geoCode: {
           lat: 33.770575,
           lng: -84.410717
       },
       name: "712 Dalvigney St NW",
-      price: 550
+      price: 550,
+      distance:0.9
   }, {
       geoCode: {
           lat: 33.775657,
           lng: -84.410023
       },
       name: "708 Jefferson St NW",
-      price: 670
+      price: 670,
+      distance:0.4
   }, {
       geoCode: {
           lat: 33.780972,
           lng: -84.411132
       },
       name: "962 Howell Mill Rd NW",
-      price: 910
+      price: 910,
+      distance:0.2
   }, {
       geoCode: {
           lat: 33.782156,
           lng: -84.406678
       },
       name: "1005 Hampton St NW",
-      price: 480
+      price: 480,
+      distance:0.2
   }, {
       geoCode: {
           lat: 33.783014,
           lng: -84.401124
       },
       name: "429 Calhoun St NW",
-      price: 590
+      price: 590,
+      distance:0.2
   }, {
       geoCode: {
           lat: 33.781726,
           lng: -84.398751
       },
       name: "355 10th St NW",
-      price: 670
+      price: 670,
+      distance:0.2
   }, {
       geoCode: {
           lat: 33.768857,
           lng: -84.388279
       },
       name: "530 West Peachtree St NW",
-      price: 1100
+      price: 1100,
+      distance:0.2
   }, ];
-$( document ).ready(function() {
- for (i = 0; i < list.length; i++) {
-      var name = list[i].name;
-      var price = list[i].price;
 
-      $("#listAddresses").append("<li class='list-group-item'>" + name + " " + price + "</li>");
+
+
+$( document ).ready(function() {
+    var listByPrice = list;
+//Only list 5 apartments with best price
+    listByPrice.sort(function(a, b){return a.price-b.price});
+ for (i = 0; i < 5; i++) {
+      var name = listByPrice[i].name;
+      var price = listByPrice[i].price;
+
+      $("#listAddresses").append("<li class='list-group-item'>" + "Name:" + name + " <br>" + "Price:" + price + "</li>");
   };
 });
 
@@ -155,6 +188,10 @@ $( document ).ready(function() {
   var description = [];
   var geoInfor = [];
   var infoArray = [];
+  var markerArray = [];
+  var result = [];
+
+
 //  $.getJSON("./listings.json", function (data) {
 //      // I have placed alert here previously and realized it doesn't go into here
 //      $.each(data, function (i, item) {
@@ -170,20 +207,26 @@ $( document ).ready(function() {
          center: {lat: 33.775765,  lng: -84.397814},
 
        });
+       google.maps.event.addListener(map, 'dragend', function(){
+           setTimeout(hideMarkers(),20);
+       });
        for (i = 0; i <list.length;i++) {
            var myLatLng = list[i].geoCode
            var marker = new google.maps.Marker({
                position: myLatLng,
                map: map,
-               draggable: true,
                infowindow: myinfowindow
            });
-           var myContent = "Address:" + list[i].address + "\n" + "Price:" + list[i].price;
+           markerArray.push(marker);   //Maintain markers inside an array
+           var myContent = "Address:  " + list[i].name + "\r"
+           + "  Price:" + list[i].price + "  Distance:" + list[i].distance;
            var myinfowindow = new google.maps.InfoWindow({
                content: myContent,
            });
 
            google.maps.event.addListener(marker, 'click', function() {
+               map.setZoom(17);
+               map.panTo(marker.position);
                this.infowindow.open(map, this);
 
            });
@@ -191,48 +234,18 @@ $( document ).ready(function() {
 
           heatmap = new google.maps.visualization.HeatmapLayer({
               data: getHeatData(),
-              map: map
           });
        }
-  function toggleBounce() {
-      if (marker.getAnimation() !== null) {
-          marker.setAnimation(null);
-      } else {
-          marker.setAnimation(google.maps.Animation.BOUNCE);
-      }
-  }
-  // // ====== Geocoding ======
-  // function getAddress(search, next) {
-  //     geo.geocode({address:search}, function (results,status)
-  //         {
-  //             // If that was successful
-  //             if (status == google.maps.GeocoderStatus.OK) {
-  //                 // Lets assume that the first marker is the one we want
-  //                 var p = results[0].geometry.location;
-  //                 var lat=p.lat();
-  //                 var lng=p.lng();
-  //                 // Output the data
-  //                 var msg = 'address="' + search + '" lat=' +lat+ ' lng=' +lng+ '(delay='+delay+'ms)<br>';
-  //                 document.getElementById("messages").innerHTML += msg;
-  //                 // Create a marker
-  //                 createMarker(search,lat,lng);
-  //             }
-  //             // ====== Decode the error status ======
-  //             else {
-  //                 // === if we were sending the requests to fast, try this one again and increase the delay
-  //                 if (status == google.maps.GeocoderStatus.OVER_QUERY_LIMIT) {
-  //                     nextAddress--;
-  //                     delay++;
-  //                 } else {
-  //                     var reason="Code "+status;
-  //                     var msg = 'address="' + search + '" error=' +reason+ '(delay='+delay+'ms)<br>';
-  //                     document.getElementById("messages").innerHTML += msg;
-  //                 }
-  //             }
-  //             next();
-  //         }
-  //     );
-  // }
+     function hideMarkers(){
+         for (i = 0; i < markerArray.length; i++) {
+             if (map.getBounds().contains(markerArray[i].getPosition()) && !markerArray[i].getVisible()) {
+                 markerArray[i].setVisible(true);
+             }
+             else if (!map.getBounds().contains(markerArray[i].getPosition()) && markerArray[i].getVisible()) {
+                 markerArray[i].setVisible(false);
+             }
+         }
+     }
      function changeGradient() {
        var gradient = [
          'rgba(0, 255, 255, 0)',
@@ -252,8 +265,57 @@ $( document ).ready(function() {
        ]
        heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
      }
+     /*This function still need time to fix whether it can not left with
+       blank space on any functionalities
+     */
+     function refreshMap() {
+         var minPrice = (document.getElementById('minPrice')).value;
+         var maxPrice = (document.getElementById('maxPrice')).value;
+         document.getElementById("minPrice").value = "";
+         document.getElementById("maxPrice").value = "";
+         selectMarkers(minPrice, maxPrice);
+         resetResultList(minPrice, maxPrice);
+     }
+     function resetResultList(minPrice, maxPrice) {
+         $("#listAddresses").empty()
+         for (i = 0; i < result.length; i++){
+             $("#listAddresses").append("<li class='list-group-item' id = 'list'" + i +">" + "Name:" + result[i].name + " <br>" + "Price:" + result[i].price + "</li>");
+             $(".list-group-item").click(function() {
+                 showMarker(markerArray[i]);
+             });
+
+         }
+     }
+     function showMarker(marker){
+         map.panTo(marker.postion);
+     }
+     function selectMarkers(minPrice, maxPrice){
+          //Traverse all markers which doesn't stasifies our price
+         result = [];
+         for (i = 0; i < markerArray.length; i++){
+             tempPrice = list[i].price;
+
+             if (tempPrice > maxPrice || tempPrice< minPrice) {
+                     markerArray[i].setMap(null);
+             }
+             if(tempPrice > minPrice && tempPrice < maxPrice){
+                     result.push(list[i]);  //Store object stasfy
+             }
 
 
+         }
+     }
+
+     function resetMap() {
+         for (i = 0; i <markerArray.length; i++){
+             markerArray[i].setMap(map);
+         }
+         centerTheMap();
+         map.setZoom(14);
+     }
+     function centerTheMap(){
+          map.panTo({lat: 33.775765,  lng: -84.397814});
+     }
      function toggleHeatmap() {
        heatmap.setMap(heatmap.getMap() ? null : map);
      }
