@@ -1,0 +1,38 @@
+#Title {
+    float: left;
+    height: 10%;
+    width: 100%;
+    font-size: 60px;
+}
+
+#map {
+    float: left;
+    width: 90%;
+    height: 80vh;
+}
+
+#rightColumn {
+    float: left;
+    width: 20%;
+}
+
+#filterZone {
+    float: left;
+    width: 100%;
+    height: 30%;
+}
+
+#resultList {
+    float: left;
+    width: 100%;
+    height: 70%;
+    overflow: scroll;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* Optional: Makes the sample page fill the window. */

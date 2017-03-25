@@ -1,5 +1,4 @@
 import requests
-import time
 from bs4 import BeautifulSoup as Soup
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
@@ -20,7 +19,6 @@ def getPage(url):
 
 
 # Finds all of the links on all of the pages
-# The next step is to eliminate redundancy in the links
 def findAllLinks(url):
     links = set()
     for i in range(1, findNumPages()):
@@ -62,6 +60,7 @@ def findIndividualPages(html):
 # Extracts information from each web page
 # The array will be of the format title, geocode (either address or latLong)
 # then price and link
+# Eventually need to move logic from here to helper methods
 def dataFromPage():
     f = open(OUTPUT_FILE, 'w')
     f.write('[\n')
@@ -118,6 +117,5 @@ def writeToFile(data, f, fullyParsed):
         format = '{\n\t"name": "%s", \n\t"geocode": {\n\t\t"address": "%s" \n\t}, \n\t"price": %s, \n\t"link": "%s"\n},'
     f.write(format % tuple(data))
 
-start_time = time.time()
+
 dataFromPage()
-print("My program took ", time.time() - start_time, " to run!")
