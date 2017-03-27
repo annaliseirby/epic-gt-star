@@ -3,6 +3,7 @@
 
 //TODO:Implement lists' buttons which make them point to each object
 //TODO:PHP + mySQL backend implementation required
+//TODO:Refresh resultList
 
   var list = [{
       geoCode: {
@@ -220,7 +221,7 @@ $( document ).ready(function() {
 
        });
        google.maps.event.addListener(map, 'dragend', function(){
-           setTimeout(hideMarkers(),20);
+           hideMarkers();
        });
        for (i = 0; i <list.length;i++) {
            var myLatLng = list[i].geoCode
