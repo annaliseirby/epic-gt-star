@@ -138,4 +138,4 @@ list = [{
     },
     name: "530 West Peachtree St NW",
     price: 1100
-}, ];
+} ];
