@@ -1,43 +1,54 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <html>
 <head>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--<link href="bootstrap-slider.css" rel="stylesheet">-->
+    <!--<script src="bootstrap-slider.js"></script>-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script type="text/javascript" src="./BackEnd/DataBase/latLong.js"></script>
-    <script type="text/javascript" src="./HardCoded.js"></script>
     <script src="index.js"></script>
     <link rel="stylesheet" type="text/css" href="main.css">
     <title>Simple Map</title>
 </head>
 
 <body>
-    <div class="row">
-        <div class="container-fluid" id="Title">
-            <h1>Housing Finder</h1>
-        </div>
+    <div id="Title">
+        Epic-gt-star Project Demo :)
     </div>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="container-fluid" id="filterZone">
-                <input type="number" name="minPrice"> Min Price
-                <input type="number" name="maxPrice"> Max Price
-                <button id="submit">Submit</button>
-                <br><br>
-                <button onclick="toggleHeatmap()">Toggle Heatmap</button>
-            </div>
-            <div id="resultList">
-                <div class="list-group" id="listAddresses">
-
+    <div id="rightColumn">
+        <div id="filterZone">
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Minimum Price</label>
+                    <input type="text" class="form-control" id="minPrice" placeholder="Minimum Price">
                 </div>
-                <br>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Max Price</label>
+                    <input type="text" class="form-control" id="maxPrice" placeholder="Maximum Price">
+                </div>
+            </form>
+            <br><br>
+            <div id="panel1">
+                <button type="button" class="btn btn-primary" onClick="refreshMap()">Submit</button>
+
+                <button type="button" class="btn btn-danger" onClick="resetMap()">Reset Map</button>
+            </div>
+            <div id="panel2">
+                <button type="button" class="btn btn-info" onclick="toggleHeatmap()">ShowHeatMap</button>
+
+                <button type="button" class="btn btn-warning" onclick="centerTheMap()">Center Map</button>
             </div>
         </div>
-        <div class="col-md-8">
-            <div id="map"></div>
+        <div id="resultList">
+            <br>
+            <div class="list-group" id="listAddresses">
+                </a>
+
+            </div>
         </div>
     </div>
     <script>
@@ -45,4 +56,3 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnLvm9iFfzjSfknLdWFMMLWWTiGxfBXh4&libraries=visualization&callback=initMap">
     </script>
 </body>
-</html>
