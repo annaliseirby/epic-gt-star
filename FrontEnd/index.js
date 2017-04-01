@@ -2,11 +2,11 @@ $(document).ready(function() {
     for (i = 0; i < list.length; i++) {
         var name = list[i].name;
         var price = list[i].price;
-
-        $("#listAddresses").append("<li class='list-group-item'>" + name + " " + price + "</li>");
+        $("#listAddresses").append("<a href='#' class='list-group-item'>"
+            + "<h4 class='list-group-item-heading'> " + name + "</h4>"
+            + "<p class='list-group-item-text'> $" + price + "</p></a>");
     };
 });
-
 
 var map;
 var address = [];

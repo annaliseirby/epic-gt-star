@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-
 <html>
+
 <head>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script type="text/javascript" src="./BackEnd/DataBase/latLong.js"></script>
-    <script type="text/javascript" src="./Test.js"></script>
+    <script type="text/javascript" src="../BackEnd/DataBase/latLong.js"></script>
+    <script type="text/javascript" src="./HardCoded.js"></script>
     <script src="index.js"></script>
     <link rel="stylesheet" type="text/css" href="main.css">
     <title>Simple Map</title>
 </head>
 
 <body>
+
     <div class="row">
         <div class="container-fluid" id="Title">
-            <h1>Title</h1>
+            <h1>Housing Finder</h1>
         </div>
     </div>
     <div class="row">
@@ -26,16 +27,13 @@
                 <input type="number" name="minPrice"> Min Price
                 <input type="number" name="maxPrice"> Max Price
                 <button id="submit">Submit</button>
-                <br><br>
+                <br>
+                <br>
                 <button onclick="toggleHeatmap()">Toggle Heatmap</button>
             </div>
+
             <div id="resultList">
-                <div class="list-group" id="listAddresses">
-                    <a href="#" class="list-group-item">
-                        <h4 class="list-group-item-heading">First List Group Item Heading</h4>
-                        <p class="list-group-item-text">List Group Item Text</p>
-                    </a>
-                </div>
+                <div class="list-group" id="listAddresses"></div>
                 <br>
             </div>
         </div>
@@ -48,4 +46,5 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnLvm9iFfzjSfknLdWFMMLWWTiGxfBXh4&libraries=visualization&callback=initMap">
     </script>
 </body>
+
 </html>
