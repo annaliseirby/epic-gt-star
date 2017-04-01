@@ -188,15 +188,15 @@ $(document).ready(function() {
         var price = listByPrice[i].price;
         var temp = i;
         $("#listAddresses").append("<li class='list-group-item'>" + "Name:" + name + " <br>" + "Price:" + price + " " +
-            "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type='button' class='btn btn-info' + " + "id = button" + i + ">" +
+            "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type='button' " + 
+            "onclick='panToAddress(" + listByPrice[i].geoCode.lat + ", " + listByPrice[i].geoCode.lng + ")' " + 
+            "class='btn btn-info' + " + "id = button" + i + ">" +
             "ShowDetails</button>" + "</li>");
         tempList.push(name);
     }
 });
 
-// $(document).on('click', function(e) {
-    
-// })
+
 
 
 var map; //Map object
@@ -306,9 +306,19 @@ function resetResultList(minPrice, maxPrice) {
     $("#listAddresses").empty()
     for (i = 0; i < result.length; i++) {
         $("#listAddresses").append("<li class='list-group-item' id = 'list'" + i + ">" + "Name:" + result[i].name + " <br>" + "Price:" + result[i].price +
-            "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type='button' class='btn btn-info' + " + "id = button" + i + ">" +
-            "ShowDetails</button>" + "</li>");
+            "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type='button' " + 
+            "onclick='panToAddress(" + result[i].geoCode.lat + ", " + result[i].geoCode.lng + ")' " + 
+            "class='btn btn-info' + " + "id = button" + i + ">" + "ShowDetails</button>" + "</li>");
     }
+}
+
+function panToAddress(myLat, myLng) {
+    map.panTo({
+        lat: myLat,
+        lng: myLng
+    });
+    map.setZoom(17);
+
 }
 
 function showMarker(marker) {
