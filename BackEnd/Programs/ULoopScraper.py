@@ -35,9 +35,11 @@ def openFile(html):
 # Finds the number of pages that needs to be returned and returns it
 def findNumPages():
     html = getPage(ULOOP_URL % (min_rent, max_rent, 1))
-    # This string contains the total number of listings and the number of
-    # listings per page
-    # It looks like this: "Found 298 listings, displaying 1-20"
+    """
+    This string contains the total number of listings and the number of
+    listings per page
+    It looks like this: "Found 298 listings, displaying 1-20"
+    """
     numToBeParsed = openFile(html).find('p',
             {'class': 'listing_founded'}).get_text().split()
     numListings = int(numToBeParsed[1])
@@ -64,31 +66,31 @@ def findIndividualPages(html):
 def dataFromPage():
     f = open(OUTPUT_FILE, 'w')
     f.write('[\n')
+    allHomes = []
     for link in findAllLinks(ULOOP_URL):
         try:
             data = []
             html = openFile(getPage(link))
             data.append(html.find('h1', {'class': 'listing_title'}).get_text())
             information = html.find_all('div', {'class': 'table_td'})
-            for i in range(1, 4):
+            for i in range(1, 5):
                 data.append('null')
             data.append(link)
             for info in information:
                 if data[1] == 'null' and ', Atlanta, GA' in info.get_text():
-                    latLong = turnAddressToGeocode(info.get_text())
-                    data[1] = latLong[0]
-                    data[2] = latLong[1]
-                elif data[3] == 'null' and '$' in info.get_text():
-                    data[3] = info.get_text()[1:]
+                    data[1] = info.get_text()
+                    latLong = turnAddressToGeocode(data[1])
+                    data[2] = latLong[0]
+                    data[3] = latLong[1]
+                elif data[4] == 'null' and '$' in info.get_text():
+                    data[4] = info.get_text()[1:]
                 # If both parts of the array are not null, we're done!
-                if data[1] != 'null' and data[3] != 'null':
+                if data[1] != 'null' and data[4] != 'null':
                     break
             # This information is useless if we don't have the address
             if data[1] != 'null':
-                if data[2] == 'null':
-                    writeToFile(data, f, False)
-                else:
-                    writeToFile(data, f, True)
+                writeToFile(data, f)
+                allHomes.append(data)
         except AttributeError:
             print()
     f.write(']')
@@ -104,17 +106,13 @@ def turnAddressToGeocode(address):
         return [location.latitude, location.longitude]
     # If the geocoder times out, or if the geocoder returns null, we catch it
     except (GeocoderTimedOut, AttributeError):
-        return [address, 'null']
+        return ['null', 'null']
 
 
 # Writes all the given data to the file
 # The second boolean is in case geopy is unable to fully parse the address
-def writeToFile(data, f, fullyParsed):
-    if fullyParsed:
-        format = '{\n\t"name": "%s", \n\t"geocode": {\n\t\t"lat": %f, \n\t\t"lng": %f \n\t}, \n\t"price": %s, \n\t"link": "%s"\n},'
-    else:
-        data = [data[0], data[1], data[3], data[4]]
-        format = '{\n\t"name": "%s", \n\t"geocode": {\n\t\t"address": "%s" \n\t}, \n\t"price": %s, \n\t"link": "%s"\n},'
+def writeToFile(data, f):
+    format = '{\n\t"name": "%s", \n\t"geocode": {\n\t\t"address": "%s", \n\t\t"lat": %s, \n\t\t"lng": %s \n\t}, \n\t"price": %s, \n\t"link": "%s"\n},'
     f.write(format % tuple(data))
 
 

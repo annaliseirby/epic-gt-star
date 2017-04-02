@@ -4,7 +4,7 @@ from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 
 MAIN_URL = 'https://www.homeparkrentals.com/listings/'
-OUTPUT_FILE = 'listings2.json'
+OUTPUT_FILE = '../Database/listings2.json'
 
 
 # Returns the raw html of each page
@@ -29,32 +29,36 @@ def findIndividualPages(url):
     return links
 
 
+# Gets the data from each page
 def dataFromPage():
     f = open(OUTPUT_FILE, 'w')
     f.write('[')
+    allHomes = []
     for link in findIndividualPages(MAIN_URL):
         html = openFile(link)
         data = []
         data.append(html.find('h1', {'class': 'property-title'}).get_text())
         temp = html.find('li', {'class': 'property_location'}).find('span', {'class': 'value'}).get_text()
         temp = cleanUpData(temp)
+        data.append(temp)
         geoData = turnAddressToGeocode(temp)
-        if (geoData[1] == 'null'):
-            data.append(geoData[0])
-        else:
-            data.extend(geoData)
+        data.extend(geoData)
         temp = html.find('li', {'class': 'property_price'}).find('span', {'class': 'value'}).get_text()
         data.append(cleanUpData(temp))
         data.append(link)
         writeToFile(data, f)
+        allHomes.append(data)
     f.write(']')
     f.close()
 
 
+# Removes dollar signs, escape characters and commas from data
 def cleanUpData(data):
     data = data.strip('\xa0')
     if '$' in data:
         data = data.split('$')[1].replace(',', '')
+    else:
+        data = ' '.join(data.split())
     return data
 
 
@@ -66,16 +70,13 @@ def turnAddressToGeocode(address):
         return [location.latitude, location.longitude]
     # If the geocoder times out, or if the geocoder returns null, we catch it
     except (GeocoderTimedOut, AttributeError):
-        return [address, 'null']
+        return ['null', 'null']
 
 
 # Writes all the given data to the file
-# The second boolean is in case geopy is unable to fully parse the address
 def writeToFile(data, f):
-    if len(data) == 5:
-        format = '{\n\t"name": "%s", \n\t"geocode": {\n\t\t"lat": %s, \n\t\t"lng": %s \n\t}, \n\t"price": %s, \n\t"link": "%s"\n},'
-    else:
-        format = '{\n\t"name": "%s", \n\t"geocode": {\n\t\t"address": "%s" \n\t}, \n\t"price": %s, \n\t"link": "%s"\n},'
+    format = '{\n\t"name": "%s", \n\t"geocode": {\n\t\t"address": "%s", \n\t\t"lat": %s, \n\t\t"lng": %s \n\t}, \n\t"price": %s, \n\t"link": "%s"\n},'
     f.write(format % tuple(data))
+
 
 dataFromPage()
