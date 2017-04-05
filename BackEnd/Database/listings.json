@@ -1,0 +1,2126 @@
+[
+{
+	"name": "Reserve Collier Hills ", 
+	"geocode": {
+		"lat": 33.812629, 
+		"lng": -84.423827 
+	}, 
+	"price": 1820, 
+	"link": "http://gatech.uloop.com/housing/view.php/462276409/Reserve-Collier-Hills"
+},{
+	"name": "Central Park PL & Ralph McGill Blvd ", 
+	"geocode": {
+		"address": "Central Park PL & Ralph McGill Blvd, Atlanta, GA" 
+	}, 
+	"price": 995, 
+	"link": "http://gatech.uloop.com/housing/view.php/534533324/Central-Park-PL-amp-Ralph-McGill-Blvd"
+},{
+	"name": "349 Decatur St SE Apt 20446 ", 
+	"geocode": {
+		"address": "349 Decatur St SE Apt 20446, Atlanta, GA" 
+	}, 
+	"price": 1143, 
+	"link": "http://gatech.uloop.com/housing/view.php/534850677/349-Decatur-St-SE-Apt-20446"
+},{
+	"name": "Virginia & Ponce Place ", 
+	"geocode": {
+		"lat": 33.773714, 
+		"lng": -84.364193 
+	}, 
+	"price": 1205, 
+	"link": "http://gatech.uloop.com/housing/view.php/534857649/Virginia-amp-Ponce-Place"
+},{
+	"name": "16th St NW & Mecaslin St ", 
+	"geocode": {
+		"address": "16th St NW & Mecaslin St, Atlanta, GA" 
+	}, 
+	"price": 2045, 
+	"link": "http://gatech.uloop.com/housing/view.php/532618629/16th-St-NW-amp-Mecaslin-St"
+},{
+	"name": "773 Greenwood Avenue ", 
+	"geocode": {
+		"address": "773 Greenwood Avenue, Atlanta, GA" 
+	}, 
+	"price": 1025, 
+	"link": "http://gatech.uloop.com/housing/view.php/541048197/773-Greenwood-Avenue"
+},{
+	"name": "Highland Oaks ", 
+	"geocode": {
+		"lat": 33.776985, 
+		"lng": -84.361159 
+	}, 
+	"price": 1625, 
+	"link": "http://gatech.uloop.com/housing/view.php/532698313/Highland-Oaks"
+},{
+	"name": "3324 Peachtree Road NE, Unit 3012 ", 
+	"geocode": {
+		"address": "3324 Peachtree Road NE, Unit 3012, Atlanta, GA" 
+	}, 
+	"price": 1900, 
+	"link": "http://gatech.uloop.com/housing/view.php/530588485/3324-Peachtree-Road-NE-Unit-3012"
+},{
+	"name": "2515 Northeast Expressway Apt 20999 ", 
+	"geocode": {
+		"address": "2515 Northeast Expressway Apt 20999, Atlanta, GA" 
+	}, 
+	"price": 920, 
+	"link": "http://gatech.uloop.com/housing/view.php/543772890/2515-Northeast-Expressway-Apt-20999"
+},{
+	"name": "70 Perimeter Center Drive Apt 23170 ", 
+	"geocode": {
+		"address": "70 Perimeter Center Drive Apt 23170, Atlanta, GA" 
+	}, 
+	"price": 1215, 
+	"link": "http://gatech.uloop.com/housing/view.php/534736788/70-Perimeter-Center-Drive-Apt-23170"
+},{
+	"name": "710 Peachtree St NE Apt 21427 ", 
+	"geocode": {
+		"address": "710 Peachtree St NE Apt 21427, Atlanta, GA" 
+	}, 
+	"price": 869, 
+	"link": "http://gatech.uloop.com/housing/view.php/534699923/710-Peachtree-St-NE-Apt-21427"
+},{
+	"name": "2805 Northeast Expy NE Unit A5 ", 
+	"geocode": {
+		"address": "2805 Northeast Expy NE Unit A5, Atlanta, GA" 
+	}, 
+	"price": 900, 
+	"link": "http://gatech.uloop.com/housing/view.php/534858826/2805-Northeast-Expy-NE-Unit-A5"
+},{
+	"name": "919 Westmont Rd SW ", 
+	"geocode": {
+		"lat": 33.730134, 
+		"lng": -84.437726 
+	}, 
+	"price": 150, 
+	"link": "http://gatech.uloop.com/housing/view.php/540192609/919-Westmont-Rd-SW"
+},{
+	"name": "Duo Atlanta ", 
+	"geocode": {
+		"lat": 33.752162, 
+		"lng": -84.401410 
+	}, 
+	"price": 1300, 
+	"link": "http://gatech.uloop.com/housing/view.php/534271459/Duo-Atlanta"
+},{
+	"name": "350 Peachtree Hills Ave. Apt 23269 ", 
+	"geocode": {
+		"address": "350 Peachtree Hills Ave. Apt 23269, Atlanta, GA" 
+	}, 
+	"price": 1180, 
+	"link": "http://gatech.uloop.com/housing/view.php/534381753/350-Peachtree-Hills-Ave-Apt-23269"
+},{
+	"name": "3325 Piedmont Road NE #1708 ", 
+	"geocode": {
+		"address": "3325 Piedmont Road NE #1708, Atlanta, GA" 
+	}, 
+	"price": 2300, 
+	"link": "http://gatech.uloop.com/housing/view.php/537984164/3325-Piedmont-Road-NE-1708"
+},{
+	"name": "5651 Laurel Ridge Drive Unit 35 ", 
+	"geocode": {
+		"address": "5651 Laurel Ridge Drive Unit 35, Atlanta, GA" 
+	}, 
+	"price": 1450, 
+	"link": "http://gatech.uloop.com/housing/view.php/538496967/5651-Laurel-Ridge-Drive-Unit-35"
+},{
+	"name": "Modera Midtown ", 
+	"geocode": {
+		"lat": 33.779646, 
+		"lng": -84.389421 
+	}, 
+	"price": 1697, 
+	"link": "http://gatech.uloop.com/housing/view.php/541652269/Modera-Midtown"
+},{
+	"name": "172 Haynes St SW #309 ", 
+	"geocode": {
+		"address": "172 Haynes St SW #309, Atlanta, GA" 
+	}, 
+	"price": 1400, 
+	"link": "http://gatech.uloop.com/housing/view.php/541097341/172-Haynes-St-SW-309"
+},{
+	"name": "915 W Peachtree St Apt 20416 ", 
+	"geocode": {
+		"address": "915 W Peachtree St Apt 20416, Atlanta, GA" 
+	}, 
+	"price": 1530, 
+	"link": "http://gatech.uloop.com/housing/view.php/534759719/915-W-Peachtree-St-Apt-20416"
+},{
+	"name": "Wimbledon RD NE & Piedmont Ave NE ", 
+	"geocode": {
+		"address": "Wimbledon RD NE & Piedmont Ave NE, Atlanta, GA" 
+	}, 
+	"price": 1425, 
+	"link": "http://gatech.uloop.com/housing/view.php/534253900/Wimbledon-RD-NE-amp-Piedmont-Ave-NE"
+},{
+	"name": "Adina Dr & Fountainhead Ln ", 
+	"geocode": {
+		"address": "Adina Dr & Fountainhead Ln, Atlanta, GA" 
+	}, 
+	"price": 1153, 
+	"link": "http://gatech.uloop.com/housing/view.php/532322939/Adina-Dr-amp-Fountainhead-Ln"
+},{
+	"name": "1866 S Gordon St SW ", 
+	"geocode": {
+		"lat": 33.735819, 
+		"lng": -84.446910 
+	}, 
+	"price": 1200, 
+	"link": "http://gatech.uloop.com/housing/view.php/537991348/1866-S-Gordon-St-SW"
+},{
+	"name": "Cityline Ave & Central Park Place ", 
+	"geocode": {
+		"address": "Cityline Ave & Central Park Place, Atlanta, GA" 
+	}, 
+	"price": 931, 
+	"link": "http://gatech.uloop.com/housing/view.php/534238443/Cityline-Ave-amp-Central-Park-Place"
+},{
+	"name": "Briarcliff Rd NE & Gables Way NE ", 
+	"geocode": {
+		"address": "Briarcliff Rd NE & Gables Way NE, Atlanta, GA" 
+	}, 
+	"price": 1095, 
+	"link": "http://gatech.uloop.com/housing/view.php/534470773/Briarcliff-Rd-NE-amp-Gables-Way-NE"
+},{
+	"name": "Peachtree St NE ", 
+	"geocode": {
+		"lat": 33.754390, 
+		"lng": -84.389742 
+	}, 
+	"price": 999, 
+	"link": "http://gatech.uloop.com/housing/view.php/543716048/Peachtree-St-NE"
+},{
+	"name": "1900 North Druid Hills Rd. Apt 20359 ", 
+	"geocode": {
+		"address": "1900 North Druid Hills Rd. Apt 20359, Atlanta, GA" 
+	}, 
+	"price": 1129, 
+	"link": "http://gatech.uloop.com/housing/view.php/540663088/1900-North-Druid-Hills-Rd-Apt-20359"
+},{
+	"name": "767 Greenwood Avenue ", 
+	"geocode": {
+		"address": "767 Greenwood Avenue, Atlanta, GA" 
+	}, 
+	"price": 1075, 
+	"link": "http://gatech.uloop.com/housing/view.php/534422095/767-Greenwood-Avenue"
+},{
+	"name": "199 14th Street #1507 ", 
+	"geocode": {
+		"address": "199 14th Street #1507, Atlanta, GA" 
+	}, 
+	"price": 2000, 
+	"link": "http://gatech.uloop.com/housing/view.php/542491332/199-14th-Street-1507"
+},{
+	"name": "3180 Mathieson Drive  NE #611 ", 
+	"geocode": {
+		"address": "3180 Mathieson Drive  NE #611, Atlanta, GA" 
+	}, 
+	"price": 3200, 
+	"link": "http://gatech.uloop.com/housing/view.php/543356026/3180-Mathieson-Drive-NE-611"
+},{
+	"name": "222 Colonial Homes Drive Apt 20322 ", 
+	"geocode": {
+		"address": "222 Colonial Homes Drive Apt 20322, Atlanta, GA" 
+	}, 
+	"price": 1222, 
+	"link": "http://gatech.uloop.com/housing/view.php/534727248/222-Colonial-Homes-Drive-Apt-20322"
+},{
+	"name": "North Avenue NE & Glen Iris Dr ", 
+	"geocode": {
+		"address": "North Avenue NE & Glen Iris Dr, Atlanta, GA" 
+	}, 
+	"price": 2704, 
+	"link": "http://gatech.uloop.com/housing/view.php/533156631/North-Avenue-NE-amp-Glen-Iris-Dr"
+},{
+	"name": "Ashford Dunwoody Rd NE ", 
+	"geocode": {
+		"lat": 33.924269, 
+		"lng": -84.340203 
+	}, 
+	"price": 1215, 
+	"link": "http://gatech.uloop.com/housing/view.php/534739413/Ashford-Dunwoody-Rd-NE"
+},{
+	"name": "3315 Roswell Rd. Apt 23195 ", 
+	"geocode": {
+		"address": "3315 Roswell Rd. Apt 23195, Atlanta, GA" 
+	}, 
+	"price": 1400, 
+	"link": "http://gatech.uloop.com/housing/view.php/534381900/3315-Roswell-Rd-Apt-23195"
+},{
+	"name": "2233 Polar Rock Ter SW ", 
+	"geocode": {
+		"lat": 33.693454, 
+		"lng": -84.395023 
+	}, 
+	"price": 795, 
+	"link": "http://gatech.uloop.com/housing/view.php/537983819/2233-Polar-Rock-Ter-SW"
+},{
+	"name": "1075 Mcdaniel Street ", 
+	"geocode": {
+		"address": "1075 Mcdaniel Street, Atlanta, GA" 
+	}, 
+	"price": 825, 
+	"link": "http://gatech.uloop.com/housing/view.php/540203868/1075-Mcdaniel-Street"
+},{
+	"name": "705 Francis Ave. SE ", 
+	"geocode": {
+		"lat": 33.723194, 
+		"lng": -84.364883 
+	}, 
+	"price": 1450, 
+	"link": "http://gatech.uloop.com/housing/view.php/534720683/705-Francis-Ave-SE"
+},{
+	"name": "Female college student wanted to sublet a room on GSU campus ", 
+	"geocode": {
+		"address": "112 Courtland St NE , Apt# 20304D, Atlanta, GA" 
+	}, 
+	"price": 885, 
+	"link": "http://gatech.uloop.com/housing/view.php/539148186/Female-college-student-wanted-to-sublet-a-room-on-GSU-campus"
+},{
+	"name": "1 ravinia suite 500 ", 
+	"geocode": {
+		"address": "1 ravinia suite 500, Atlanta, GA" 
+	}, 
+	"price": 1100, 
+	"link": "http://gatech.uloop.com/housing/view.php/535265773/1-ravinia-suite-500"
+},{
+	"name": "195 Randolph Street NE ", 
+	"geocode": {
+		"lat": 33.759670, 
+		"lng": -84.367424 
+	}, 
+	"price": 1275, 
+	"link": "http://gatech.uloop.com/housing/view.php/537917590/195-Randolph-Street-NE"
+},{
+	"name": "1270 West Peachtree Street Apt 20143 ", 
+	"geocode": {
+		"address": "1270 West Peachtree Street Apt 20143, Atlanta, GA" 
+	}, 
+	"price": 1256, 
+	"link": "http://gatech.uloop.com/housing/view.php/534727474/1270-West-Peachtree-Street-Apt-20143"
+},{
+	"name": "The Frederica ", 
+	"geocode": {
+		"lat": 33.774704, 
+		"lng": -84.355191 
+	}, 
+	"price": 1125, 
+	"link": "http://gatech.uloop.com/housing/view.php/532698230/The-Frederica"
+},{
+	"name": "1824 Defoor Ave NW Apt 20400 ", 
+	"geocode": {
+		"address": "1824 Defoor Ave NW Apt 20400, Atlanta, GA" 
+	}, 
+	"price": 1275, 
+	"link": "http://gatech.uloop.com/housing/view.php/542561639/1824-Defoor-Ave-NW-Apt-20400"
+},{
+	"name": "2740 Sapphire St ", 
+	"geocode": {
+		"address": "2740 Sapphire St, Atlanta, GA" 
+	}, 
+	"price": 900, 
+	"link": "http://gatech.uloop.com/housing/view.php/537929812/2740-Sapphire-St"
+},{
+	"name": "45 Sheridan Drive, NE Apt 22389 ", 
+	"geocode": {
+		"address": "45 Sheridan Drive, NE Apt 22389, Atlanta, GA" 
+	}, 
+	"price": 1299, 
+	"link": "http://gatech.uloop.com/housing/view.php/534381685/45-Sheridan-Drive-NE-Apt-22389"
+},{
+	"name": "Walton Ashwood ", 
+	"geocode": {
+		"address": "1000 Ashwood Pkwy, Atlanta, GA" 
+	}, 
+	"price": 1500, 
+	"link": "http://gatech.uloop.com/housing/view.php/466483288/Walton-Ashwood"
+},{
+	"name": "226B Kinsey Ct NE ", 
+	"geocode": {
+		"lat": 33.815605, 
+		"lng": -84.380061 
+	}, 
+	"price": 1595, 
+	"link": "http://gatech.uloop.com/housing/view.php/544123058/226B-Kinsey-Ct-NE"
+},{
+	"name": "225 26th Street Apt 24036 ", 
+	"geocode": {
+		"address": "225 26th Street Apt 24036, Atlanta, GA" 
+	}, 
+	"price": 854, 
+	"link": "http://gatech.uloop.com/housing/view.php/540662957/225-26th-Street-Apt-24036"
+},{
+	"name": "743 Holmes Street, NW Apt 21372 ", 
+	"geocode": {
+		"address": "743 Holmes Street, NW Apt 21372, Atlanta, GA" 
+	}, 
+	"price": 800, 
+	"link": "http://gatech.uloop.com/housing/view.php/542560998/743-Holmes-Street-NW-Apt-21372"
+},{
+	"name": "3324 Peachtree Rd NE Unit 2814 ", 
+	"geocode": {
+		"address": "3324 Peachtree Rd NE Unit 2814, Atlanta, GA" 
+	}, 
+	"price": 4800, 
+	"link": "http://gatech.uloop.com/housing/view.php/534785325/3324-Peachtree-Rd-NE-Unit-2814"
+},{
+	"name": "904 Ponce de Leon Ave NE ", 
+	"geocode": {
+		"lat": 33.774269, 
+		"lng": -84.357883 
+	}, 
+	"price": 1575, 
+	"link": "http://gatech.uloop.com/housing/view.php/541663045/904-Ponce-de-Leon-Ave-NE"
+},{
+	"name": "222 14th Street Apt 24156 ", 
+	"geocode": {
+		"address": "222 14th Street Apt 24156, Atlanta, GA" 
+	}, 
+	"price": 1320, 
+	"link": "http://gatech.uloop.com/housing/view.php/534760100/222-14th-Street-Apt-24156"
+},{
+	"name": "2460 Peachtree Road Apt 20264 ", 
+	"geocode": {
+		"address": "2460 Peachtree Road Apt 20264, Atlanta, GA" 
+	}, 
+	"price": 1295, 
+	"link": "http://gatech.uloop.com/housing/view.php/534382281/2460-Peachtree-Road-Apt-20264"
+},{
+	"name": "49 Boulevard Ave., S.E. Apt 24777 ", 
+	"geocode": {
+		"address": "49 Boulevard Ave., S.E. Apt 24777, Atlanta, GA" 
+	}, 
+	"price": 800, 
+	"link": "http://gatech.uloop.com/housing/view.php/541730782/49-Boulevard-Ave-SE-Apt-24777"
+},{
+	"name": "Fully furnished sublet avail Apr 1 (Atlantic Station) ", 
+	"geocode": {
+		"lat": 33.790008, 
+		"lng": -84.395809 
+	}, 
+	"price": 860, 
+	"link": "http://gatech.uloop.com/housing/view.php/542329260/Fully-furnished-sublet-avail-Apr-1-Atlantic-Station"
+},{
+	"name": "Northside Drive ", 
+	"geocode": {
+		"lat": 33.772734, 
+		"lng": -84.408440 
+	}, 
+	"price": 1339, 
+	"link": "http://gatech.uloop.com/housing/view.php/543716469/Northside-Drive"
+},{
+	"name": "Glen Iris & Rankin St ", 
+	"geocode": {
+		"address": "Glen Iris & Rankin St, Atlanta, GA" 
+	}, 
+	"price": 1447, 
+	"link": "http://gatech.uloop.com/housing/view.php/534836981/Glen-Iris-amp-Rankin-St"
+},{
+	"name": "705 Town Boulevard Apt 22670 ", 
+	"geocode": {
+		"address": "705 Town Boulevard Apt 22670, Atlanta, GA" 
+	}, 
+	"price": 1401, 
+	"link": "http://gatech.uloop.com/housing/view.php/542561974/705-Town-Boulevard-Apt-22670"
+},{
+	"name": "1020 Piedmont Ave NE Apt 20444 ", 
+	"geocode": {
+		"address": "1020 Piedmont Ave NE Apt 20444, Atlanta, GA" 
+	}, 
+	"price": 1550, 
+	"link": "http://gatech.uloop.com/housing/view.php/534759609/1020-Piedmont-Ave-NE-Apt-20444"
+},{
+	"name": "3787 & 3815 Martin Luther King Junior Drive ", 
+	"geocode": {
+		"address": "3787 & 3815 Martin Luther King Junior Drive, Atlanta, GA" 
+	}, 
+	"price": 680, 
+	"link": "http://gatech.uloop.com/housing/view.php/533551696/3787-amp-3815-Martin-Luther-King-Junior-Drive"
+},{
+	"name": "Peachtree St / Bennitt St ", 
+	"geocode": {
+		"address": "Peachtree St / Bennitt St, Atlanta, GA" 
+	}, 
+	"price": 1119, 
+	"link": "http://gatech.uloop.com/housing/view.php/534349753/Peachtree-St--Bennitt-St"
+},{
+	"name": "Piedmont Rd NE ", 
+	"geocode": {
+		"lat": 33.812871, 
+		"lng": -84.366695 
+	}, 
+	"price": 1291, 
+	"link": "http://gatech.uloop.com/housing/view.php/534030600/Piedmont-Rd-NE"
+},{
+	"name": "3071 Collier Dr. NW ", 
+	"geocode": {
+		"lat": 33.764778, 
+		"lng": -84.487283 
+	}, 
+	"price": 1250, 
+	"link": "http://gatech.uloop.com/housing/view.php/543301103/3071-Collier-Dr-NW"
+},{
+	"name": "880 Westmont Road ", 
+	"geocode": {
+		"address": "880 Westmont Road, Atlanta, GA" 
+	}, 
+	"price": 975, 
+	"link": "http://gatech.uloop.com/housing/view.php/541681779/880-Westmont-Road"
+},{
+	"name": "245 Woodhue Forest Lane ", 
+	"geocode": {
+		"address": "245 Woodhue Forest Lane, Atlanta, GA" 
+	}, 
+	"price": 998, 
+	"link": "http://gatech.uloop.com/housing/view.php/534362970/245-Woodhue-Forest-Lane"
+},{
+	"name": "391 17th Street NW ", 
+	"geocode": {
+		"lat": 33.791558, 
+		"lng": -84.400661 
+	}, 
+	"price": 1300, 
+	"link": "http://gatech.uloop.com/housing/view.php/538495509/391-17th-Street-NW"
+},{
+	"name": "955 Coleman St SW ", 
+	"geocode": {
+		"lat": 33.728797, 
+		"lng": -84.404163 
+	}, 
+	"price": 795, 
+	"link": "http://gatech.uloop.com/housing/view.php/532234368/955-Coleman-St-SW"
+},{
+	"name": "Piedmont / Ralph McGill Blvd ", 
+	"geocode": {
+		"address": "Piedmont / Ralph McGill Blvd, Atlanta, GA" 
+	}, 
+	"price": 1175, 
+	"link": "http://gatech.uloop.com/housing/view.php/534403886/Piedmont--Ralph-McGill-Blvd"
+},{
+	"name": "1620 Hollywood Rd ", 
+	"geocode": {
+		"address": "1620 Hollywood Rd, Atlanta, GA" 
+	}, 
+	"price": 805, 
+	"link": "http://gatech.uloop.com/housing/view.php/532446080/1620-Hollywood-Rd"
+},{
+	"name": "Walton Lakes ", 
+	"geocode": {
+		"lat": 33.656826, 
+		"lng": -84.520966 
+	}, 
+	"price": 1375, 
+	"link": "http://gatech.uloop.com/housing/view.php/466483230/Walton-Lakes"
+},{
+	"name": "1200 Reserve Drive Apt 23625 ", 
+	"geocode": {
+		"address": "1200 Reserve Drive Apt 23625, Atlanta, GA" 
+	}, 
+	"price": 1195, 
+	"link": "http://gatech.uloop.com/housing/view.php/542561572/1200-Reserve-Drive-Apt-23625"
+},{
+	"name": "North Ave & Central Park Pl ", 
+	"geocode": {
+		"address": "North Ave & Central Park Pl, Atlanta, GA" 
+	}, 
+	"price": 942, 
+	"link": "http://gatech.uloop.com/housing/view.php/534383190/North-Ave-amp-Central-Park-Pl"
+},{
+	"name": "1509 Stone Gate Lane SE ", 
+	"geocode": {
+		"address": "1509 Stone Gate Lane SE, Atlanta, GA" 
+	}, 
+	"price": 995, 
+	"link": "http://gatech.uloop.com/housing/view.php/543763082/1509-Stone-Gate-Lane-SE"
+},{
+	"name": "390 17th Street #2061 ", 
+	"geocode": {
+		"address": "390 17th Street #2061, Atlanta, GA" 
+	}, 
+	"price": 1895, 
+	"link": "http://gatech.uloop.com/housing/view.php/539805137/390-17th-Street-2061"
+},{
+	"name": "Highland Club Apartments ", 
+	"geocode": {
+		"lat": 33.772296, 
+		"lng": -84.384046 
+	}, 
+	"price": 1695, 
+	"link": "http://gatech.uloop.com/housing/view.php/532903951/Highland-Club-Apartments"
+},{
+	"name": "45 Ivan Allen Blvd #1905 ", 
+	"geocode": {
+		"address": "45 Ivan Allen Blvd #1905, Atlanta, GA" 
+	}, 
+	"price": 2200, 
+	"link": "http://gatech.uloop.com/housing/view.php/541106134/45-Ivan-Allen-Blvd-1905"
+},{
+	"name": "Piedmont Avenue & Highland Avenue ", 
+	"geocode": {
+		"address": "Piedmont Avenue & Highland Avenue, Atlanta, GA" 
+	}, 
+	"price": 1275, 
+	"link": "http://gatech.uloop.com/housing/view.php/534225972/Piedmont-Avenue-amp-Highland-Avenue"
+},{
+	"name": "880 Glenwood Ave Apt 20087 ", 
+	"geocode": {
+		"address": "880 Glenwood Ave Apt 20087, Atlanta, GA" 
+	}, 
+	"price": 1101, 
+	"link": "http://gatech.uloop.com/housing/view.php/541729547/880-Glenwood-Ave-Apt-20087"
+},{
+	"name": "2171 Peachtree Road NE Apt 23290 ", 
+	"geocode": {
+		"address": "2171 Peachtree Road NE Apt 23290, Atlanta, GA" 
+	}, 
+	"price": 2106, 
+	"link": "http://gatech.uloop.com/housing/view.php/534760385/2171-Peachtree-Road-NE-Apt-23290"
+},{
+	"name": "770 Nehemiah Ln ", 
+	"geocode": {
+		"address": "770 Nehemiah Ln, Atlanta, GA" 
+	}, 
+	"price": 1300, 
+	"link": "http://gatech.uloop.com/housing/view.php/539781848/770-Nehemiah-Ln"
+},{
+	"name": "Oak Pointe ", 
+	"geocode": {
+		"lat": 33.767655, 
+		"lng": -84.341135 
+	}, 
+	"price": 1245, 
+	"link": "http://gatech.uloop.com/housing/view.php/534164994/Oak-Pointe"
+},{
+	"name": "18th St. & Northside Dr ", 
+	"geocode": {
+		"address": "18th St. & Northside Dr, Atlanta, GA" 
+	}, 
+	"price": 1300, 
+	"link": "http://gatech.uloop.com/housing/view.php/534514242/18th-St-amp-Northside-Dr"
+},{
+	"name": "Alexan Glenwood ", 
+	"geocode": {
+		"lat": 33.740326, 
+		"lng": -84.359632 
+	}, 
+	"price": 1455, 
+	"link": "http://gatech.uloop.com/housing/view.php/513915318/Alexan-Glenwood"
+},{
+	"name": "1016 Howell Mill Rd. ", 
+	"geocode": {
+		"lat": 33.803173, 
+		"lng": -84.414393 
+	}, 
+	"price": 1600, 
+	"link": "http://gatech.uloop.com/housing/view.php/544471136/1016-Howell-Mill-Rd"
+},{
+	"name": "Spanish Oaks ", 
+	"geocode": {
+		"lat": 33.770110, 
+		"lng": -84.368817 
+	}, 
+	"price": 1175, 
+	"link": "http://gatech.uloop.com/housing/view.php/541662647/Spanish-Oaks"
+},{
+	"name": "1458 Akridge Street ", 
+	"geocode": {
+		"address": "1458 Akridge Street, Atlanta, GA" 
+	}, 
+	"price": 825, 
+	"link": "http://gatech.uloop.com/housing/view.php/540194879/1458AkridgeStreet"
+},{
+	"name": "Sublease for Summer 2017 in Home Park ", 
+	"geocode": {
+		"address": "1040A Curran Street, Atlanta, GA" 
+	}, 
+	"price": 460, 
+	"link": "http://gatech.uloop.com/housing/view.php/538302455/Sublease-for-Summer-2017-in-Home-Park"
+},{
+	"name": "1080 West Peachtree Street Apt 20402 ", 
+	"geocode": {
+		"address": "1080 West Peachtree Street Apt 20402, Atlanta, GA" 
+	}, 
+	"price": 1229, 
+	"link": "http://gatech.uloop.com/housing/view.php/534727392/1080-West-Peachtree-Street-Apt-20402"
+},{
+	"name": "1590 Mozley Pl ", 
+	"geocode": {
+		"address": "1590 Mozley Pl, Atlanta, GA" 
+	}, 
+	"price": 825, 
+	"link": "http://gatech.uloop.com/housing/view.php/540195481/1590-Mozley-Pl"
+},{
+	"name": "950 St. Charles Ave ", 
+	"geocode": {
+		"address": "950 St. Charles Ave, Atlanta, GA" 
+	}, 
+	"price": 1375, 
+	"link": "http://gatech.uloop.com/housing/view.php/528230979/950-St-Charles-Ave"
+},{
+	"name": "1044 Manigault St SE ", 
+	"geocode": {
+		"lat": 33.751109, 
+		"lng": -84.352877 
+	}, 
+	"price": 1795, 
+	"link": "http://gatech.uloop.com/housing/view.php/540234799/1044-Manigault-St-SE"
+},{
+	"name": "402 Deckner Ave ", 
+	"geocode": {
+		"address": "402 Deckner Ave, Atlanta, GA" 
+	}, 
+	"price": 975, 
+	"link": "http://gatech.uloop.com/housing/view.php/542489632/402-Deckner-Ave"
+},{
+	"name": "665 S Grand Ave NW ", 
+	"geocode": {
+		"lat": 33.773199, 
+		"lng": -84.462493 
+	}, 
+	"price": 825, 
+	"link": "http://gatech.uloop.com/housing/view.php/540195549/665-S-Grand-Ave-NW"
+},{
+	"name": "W. Peachtree St ", 
+	"geocode": {
+		"address": "W. Peachtree St, Atlanta, GA" 
+	}, 
+	"price": 1375, 
+	"link": "http://gatech.uloop.com/housing/view.php/534383444/W-Peachtree-St"
+},{
+	"name": "2748 Brookgrove Court SE ", 
+	"geocode": {
+		"address": "2748 Brookgrove Court SE, Atlanta, GA" 
+	}, 
+	"price": 3500, 
+	"link": "http://gatech.uloop.com/housing/view.php/543781690/2748-Brookgrove-Court-SE"
+},{
+	"name": "Spalding Bridge ", 
+	"geocode": {
+		"address": "47 Spalding Trail NE, Atlanta, GA" 
+	}, 
+	"price": 1005, 
+	"link": "http://gatech.uloop.com/housing/view.php/462958648/Spalding-Bridge"
+},{
+	"name": "Peachtree Road ", 
+	"geocode": {
+		"lat": 33.811562, 
+		"lng": -84.392276 
+	}, 
+	"price": 1475, 
+	"link": "http://gatech.uloop.com/housing/view.php/543715675/Peachtree-Road"
+},{
+	"name": "1760 Northside Dr. Apt 20945 ", 
+	"geocode": {
+		"address": "1760 Northside Dr. Apt 20945, Atlanta, GA" 
+	}, 
+	"price": 984, 
+	"link": "http://gatech.uloop.com/housing/view.php/542561162/1760-Northside-Dr-Apt-20945"
+},{
+	"name": "1045 Piedmont Avenue Apt 20406 ", 
+	"geocode": {
+		"address": "1045 Piedmont Avenue Apt 20406, Atlanta, GA" 
+	}, 
+	"price": 1647, 
+	"link": "http://gatech.uloop.com/housing/view.php/534727160/1045-Piedmont-Avenue-Apt-20406"
+},{
+	"name": "62 Harwell Road ", 
+	"geocode": {
+		"address": "62 Harwell Road, Atlanta, GA" 
+	}, 
+	"price": 700, 
+	"link": "http://gatech.uloop.com/housing/view.php/534412346/62-Harwell-Road"
+},{
+	"name": "The Reserve at West Paces ", 
+	"geocode": {
+		"lat": 33.850189, 
+		"lng": -84.427730 
+	}, 
+	"price": 2500, 
+	"link": "http://gatech.uloop.com/housing/view.php/466482595/The-Reserve-at-West-Paces"
+},{
+	"name": "9400 Roberts Dr Apt 4-B ", 
+	"geocode": {
+		"address": "9400 Roberts Dr Apt 4-B, Atlanta, GA" 
+	}, 
+	"price": 1250, 
+	"link": "http://gatech.uloop.com/housing/view.php/542513278/9400-Roberts-Dr-Apt-4-B"
+},{
+	"name": "730 Frederica Street ", 
+	"geocode": {
+		"address": "730 Frederica Street, Atlanta, GA" 
+	}, 
+	"price": 1295, 
+	"link": "http://gatech.uloop.com/housing/view.php/532651632/730-Frederica-Street"
+},{
+	"name": "Campus Crossing 2-BR 2-Bath ", 
+	"geocode": {
+		"address": "1659 Briarcliff Rd Ne 1127, Atlanta, GA" 
+	}, 
+	"price": 810, 
+	"link": "http://gatech.uloop.com/housing/view.php/533580886/Campus-Crossing-2-BR-2-Bath"
+},{
+	"name": "Gorgeous Home! Perfect for Georgia Tech Students! ", 
+	"geocode": {
+		"lat": 33.786206, 
+		"lng": -84.401881 
+	}, 
+	"price": 2200, 
+	"link": "http://gatech.uloop.com/housing/view.php/533859161/Gorgeous-Home-Perfect-for-Georgia-Tech-Students"
+},{
+	"name": "238 Walker St 31 ", 
+	"geocode": {
+		"address": "238 Walker St 31, Atlanta, GA" 
+	}, 
+	"price": 1150, 
+	"link": "http://gatech.uloop.com/housing/view.php/541091041/238-Walker-St-31"
+},{
+	"name": "450 NE Piedmont Ave Apt 20004 ", 
+	"geocode": {
+		"address": "450 NE Piedmont Ave Apt 20004, Atlanta, GA" 
+	}, 
+	"price": 999, 
+	"link": "http://gatech.uloop.com/housing/view.php/534699802/450-NE-Piedmont-Ave-Apt-20004"
+},{
+	"name": "676 Cedar Ave ", 
+	"geocode": {
+		"lat": 34.227243, 
+		"lng": -85.173088 
+	}, 
+	"price": 825, 
+	"link": "http://gatech.uloop.com/housing/view.php/540195011/676-Cedar-Ave"
+},{
+	"name": "3969 La Salle Way ", 
+	"geocode": {
+		"address": "3969 La Salle Way, Atlanta, GA" 
+	}, 
+	"price": 1000, 
+	"link": "http://gatech.uloop.com/housing/view.php/534745837/3969-La-Salle-Way"
+},{
+	"name": "Morsogo Drive & Adina Drive ", 
+	"geocode": {
+		"address": "Morsogo Drive & Adina Drive, Atlanta, GA" 
+	}, 
+	"price": 1225, 
+	"link": "http://gatech.uloop.com/housing/view.php/532650892/Morsogo-Drive-amp-Adina-Drive"
+},{
+	"name": "2217 Briarcliff Road ", 
+	"geocode": {
+		"address": "2217 Briarcliff Road, Atlanta, GA" 
+	}, 
+	"price": 825, 
+	"link": "http://gatech.uloop.com/housing/view.php/532435295/2217-Briarcliff-Road"
+},{
+	"name": "Madison Brookhaven ", 
+	"geocode": {
+		"address": "3078 Clairmont Rd NE, Atlanta, GA" 
+	}, 
+	"price": 1450, 
+	"link": "http://gatech.uloop.com/housing/view.php/407351675/Madison-Brookhaven"
+},{
+	"name": "4 Lullwater Place 4 ", 
+	"geocode": {
+		"address": "4 Lullwater Place 4, Atlanta, GA" 
+	}, 
+	"price": 2950, 
+	"link": "http://gatech.uloop.com/housing/view.php/540208086/4-Lullwater-Place-4"
+},{
+	"name": "1260 Shore Dr SW ", 
+	"geocode": {
+		"lat": 33.721129, 
+		"lng": -84.481949 
+	}, 
+	"price": 1200, 
+	"link": "http://gatech.uloop.com/housing/view.php/534340941/1260-Shore-Dr-SW"
+},{
+	"name": "214 Colonial Homes Dr NW Apt 20387 ", 
+	"geocode": {
+		"address": "214 Colonial Homes Dr NW Apt 20387, Atlanta, GA" 
+	}, 
+	"price": 1032, 
+	"link": "http://gatech.uloop.com/housing/view.php/534700010/214-Colonial-Homes-Dr-NW-Apt-20387"
+},{
+	"name": "Westside Heights ", 
+	"geocode": {
+		"lat": 33.789446, 
+		"lng": -84.418821 
+	}, 
+	"price": 1435, 
+	"link": "http://gatech.uloop.com/housing/view.php/530291031/Westside-Heights"
+},{
+	"name": "609 Virginia Ave. Apt 24333 ", 
+	"geocode": {
+		"address": "609 Virginia Ave. Apt 24333, Atlanta, GA" 
+	}, 
+	"price": 1205, 
+	"link": "http://gatech.uloop.com/housing/view.php/534428176/609-Virginia-Ave-Apt-24333"
+},{
+	"name": "Peachtree St / North Ave ", 
+	"geocode": {
+		"address": "Peachtree St / North Ave, Atlanta, GA" 
+	}, 
+	"price": 946, 
+	"link": "http://gatech.uloop.com/housing/view.php/534333295/Peachtree-St--North-Ave"
+},{
+	"name": "Collier Road ", 
+	"geocode": {
+		"lat": 33.809449, 
+		"lng": -84.412706 
+	}, 
+	"price": 980, 
+	"link": "http://gatech.uloop.com/housing/view.php/543717719/Collier-Road"
+},{
+	"name": "170 Northside Drive, SW Apt 23252 ", 
+	"geocode": {
+		"address": "170 Northside Drive, SW Apt 23252, Atlanta, GA" 
+	}, 
+	"price": 900, 
+	"link": "http://gatech.uloop.com/housing/view.php/541729413/170-Northside-Drive-SW-Apt-23252"
+},{
+	"name": "Lenox Pkwy ", 
+	"geocode": {
+		"address": "Lenox Pkwy, Atlanta, GA" 
+	}, 
+	"price": 1560, 
+	"link": "http://gatech.uloop.com/housing/view.php/543716312/Lenox-Pkwy"
+},{
+	"name": "48 weyman Avenue SW ", 
+	"geocode": {
+		"lat": 33.724752, 
+		"lng": -84.389550 
+	}, 
+	"price": 1450, 
+	"link": "http://gatech.uloop.com/housing/view.php/541685975/48-weyman-Avenue-SW"
+},{
+	"name": "1105 Town Blvd Apt 20395 ", 
+	"geocode": {
+		"address": "1105 Town Blvd Apt 20395, Atlanta, GA" 
+	}, 
+	"price": 1405, 
+	"link": "http://gatech.uloop.com/housing/view.php/540663383/1105-Town-Blvd-Apt-20395"
+},{
+	"name": "54 Bates Ave. ", 
+	"geocode": {
+		"address": "54 Bates Ave., Atlanta, GA" 
+	}, 
+	"price": 2400, 
+	"link": "http://gatech.uloop.com/housing/view.php/538464985/54-Bates-Ave"
+},{
+	"name": "960 Sims Street ", 
+	"geocode": {
+		"address": "960 Sims Street, Atlanta, GA" 
+	}, 
+	"price": 825, 
+	"link": "http://gatech.uloop.com/housing/view.php/539797511/960-Sims-Street"
+},{
+	"name": "Briarcliff / North Druid Hills ", 
+	"geocode": {
+		"address": "Briarcliff / North Druid Hills, Atlanta, GA" 
+	}, 
+	"price": 1338, 
+	"link": "http://gatech.uloop.com/housing/view.php/534473419/Briarcliff--North-Druid-Hills"
+},{
+	"name": "675 Ponce De Leon Ave NE Apt 20413 ", 
+	"geocode": {
+		"address": "675 Ponce De Leon Ave NE Apt 20413, Atlanta, GA" 
+	}, 
+	"price": 1425, 
+	"link": "http://gatech.uloop.com/housing/view.php/534700147/675-Ponce-De-Leon-Ave-NE-Apt-20413"
+},{
+	"name": "1000 Peachtree Park Dr NE Apt 23350 ", 
+	"geocode": {
+		"address": "1000 Peachtree Park Dr NE Apt 23350, Atlanta, GA" 
+	}, 
+	"price": 949, 
+	"link": "http://gatech.uloop.com/housing/view.php/534760453/1000-Peachtree-Park-Dr-NE-Apt-23350"
+},{
+	"name": "Piedmont Ave NE Baker St NE ", 
+	"geocode": {
+		"address": "Piedmont Ave NE Baker St NE, Atlanta, GA" 
+	}, 
+	"price": 1414, 
+	"link": "http://gatech.uloop.com/housing/view.php/515558904/Piedmont-Ave-NE-Baker-St-NE"
+},{
+	"name": "4120 Peachtree Rd. Apt 23455 ", 
+	"geocode": {
+		"address": "4120 Peachtree Rd. Apt 23455, Atlanta, GA" 
+	}, 
+	"price": 1175, 
+	"link": "http://gatech.uloop.com/housing/view.php/542561299/4120-Peachtree-Rd-Apt-23455"
+},{
+	"name": "600 Greensferry Avenue Apt 24404 ", 
+	"geocode": {
+		"address": "600 Greensferry Avenue Apt 24404, Atlanta, GA" 
+	}, 
+	"price": 900, 
+	"link": "http://gatech.uloop.com/housing/view.php/541729613/600-Greensferry-Avenue-Apt-24404"
+},{
+	"name": "250 10th Street, N.E. Apt 23468 ", 
+	"geocode": {
+		"address": "250 10th Street, N.E. Apt 23468, Atlanta, GA" 
+	}, 
+	"price": 1430, 
+	"link": "http://gatech.uloop.com/housing/view.php/534759834/250-10th-Street-NE-Apt-23468"
+},{
+	"name": "Piedmont & Pine ", 
+	"geocode": {
+		"lat": 33.789048, 
+		"lng": -84.371886 
+	}, 
+	"price": 999, 
+	"link": "http://gatech.uloop.com/housing/view.php/534790046/Piedmont-amp-Pine"
+},{
+	"name": "1000 Gables Way NE Apt 20407 ", 
+	"geocode": {
+		"address": "1000 Gables Way NE Apt 20407, Atlanta, GA" 
+	}, 
+	"price": 1184, 
+	"link": "http://gatech.uloop.com/housing/view.php/534469532/1000-Gables-Way-NE-Apt-20407"
+},{
+	"name": "Piedmont Road ", 
+	"geocode": {
+		"lat": 34.013061, 
+		"lng": -84.495796 
+	}, 
+	"price": 1201, 
+	"link": "http://gatech.uloop.com/housing/view.php/543716381/Piedmont-Road"
+},{
+	"name": "1270 McLendon Avenue ", 
+	"geocode": {
+		"address": "1270 McLendon Avenue, Atlanta, GA" 
+	}, 
+	"price": 4000, 
+	"link": "http://gatech.uloop.com/housing/view.php/534872205/1270-McLendon-Avenue"
+},{
+	"name": "4640 Canyon Creek Trail ", 
+	"geocode": {
+		"address": "4640 Canyon Creek Trail, Atlanta, GA" 
+	}, 
+	"price": 2500, 
+	"link": "http://gatech.uloop.com/housing/view.php/534782124/4640-Canyon-Creek-Trail"
+},{
+	"name": "Adiana Dr NE Morosgo Dr NE ", 
+	"geocode": {
+		"address": "Adiana Dr NE Morosgo Dr NE, Atlanta, GA" 
+	}, 
+	"price": 1217, 
+	"link": "http://gatech.uloop.com/housing/view.php/532985607/Adiana-Dr-NE-Morosgo-Dr-NE"
+},{
+	"name": "900 Peachtree St NE ", 
+	"geocode": {
+		"lat": 33.779334, 
+		"lng": -84.384653 
+	}, 
+	"price": 1425, 
+	"link": "http://gatech.uloop.com/housing/view.php/533171847/900-Peachtree-St-NE"
+},{
+	"name": "Peachtree St & 3rd St ", 
+	"geocode": {
+		"address": "Peachtree St & 3rd St, Atlanta, GA" 
+	}, 
+	"price": 869, 
+	"link": "http://gatech.uloop.com/housing/view.php/537316936/Peachtree-St-amp-3rd-St"
+},{
+	"name": "3558 Piedmont Rd NE Apt 22401 ", 
+	"geocode": {
+		"address": "3558 Piedmont Rd NE Apt 22401, Atlanta, GA" 
+	}, 
+	"price": 1337, 
+	"link": "http://gatech.uloop.com/housing/view.php/534381615/3558-Piedmont-Rd-NE-Apt-22401"
+},{
+	"name": "3298 Rabun Rd SW ", 
+	"geocode": {
+		"address": "3298 Rabun Rd SW, Atlanta, GA" 
+	}, 
+	"price": 1400, 
+	"link": "http://gatech.uloop.com/housing/view.php/541026538/3298-Rabun-Rd-SW"
+},{
+	"name": "All-inclusive 1 Br/1 Ba Beltline Loft in Reynoldstown with Garage ", 
+	"geocode": {
+		"lat": 33.746841, 
+		"lng": -84.357674 
+	}, 
+	"price": 1200, 
+	"link": "http://gatech.uloop.com/housing/view.php/533859208/All-inclusive-1-Br1-Ba-Beltline-Loft-in-Reynoldstown-with-Garage"
+},{
+	"name": "352 Kelly St SE ", 
+	"geocode": {
+		"lat": 33.745099, 
+		"lng": -84.380274 
+	}, 
+	"price": 1595, 
+	"link": "http://gatech.uloop.com/housing/view.php/534179883/352-Kelly-St-SE"
+},{
+	"name": "1599 Olympian Circle ", 
+	"geocode": {
+		"address": "1599 Olympian Circle, Atlanta, GA" 
+	}, 
+	"price": 975, 
+	"link": "http://gatech.uloop.com/housing/view.php/540237745/1599-Olympian-Circle"
+},{
+	"name": "235 Pharr Rd NE Apt 20095 ", 
+	"geocode": {
+		"address": "235 Pharr Rd NE Apt 20095, Atlanta, GA" 
+	}, 
+	"price": 1350, 
+	"link": "http://gatech.uloop.com/housing/view.php/534382417/235-Pharr-Rd-NE-Apt-20095"
+},{
+	"name": "1461 Venetian Drive SW ", 
+	"geocode": {
+		"lat": 33.714736, 
+		"lng": -84.436395 
+	}, 
+	"price": 895, 
+	"link": "http://gatech.uloop.com/housing/view.php/534775942/1461-Venetian-Drive-SW"
+},{
+	"name": "1040 NW Huff Rd Apt 22356 ", 
+	"geocode": {
+		"address": "1040 NW Huff Rd Apt 22356, Atlanta, GA" 
+	}, 
+	"price": 1184, 
+	"link": "http://gatech.uloop.com/housing/view.php/542561705/1040-NW-Huff-Rd-Apt-22356"
+},{
+	"name": "Ardmore Cir NW & Ardmore PL NW ", 
+	"geocode": {
+		"address": "Ardmore Cir NW & Ardmore PL NW, Atlanta, GA" 
+	}, 
+	"price": 1451, 
+	"link": "http://gatech.uloop.com/housing/view.php/532664015/Ardmore-Cir-NW-amp-Ardmore-PL-NW"
+},{
+	"name": "Habersham Rd NE & Rosewell Rd ", 
+	"geocode": {
+		"address": "Habersham Rd NE & Rosewell Rd, Atlanta, GA" 
+	}, 
+	"price": 1429, 
+	"link": "http://gatech.uloop.com/housing/view.php/533148061/Habersham-Rd-NE-amp-Rosewell-Rd"
+},{
+	"name": "Ponce de Leon & Juniper ", 
+	"geocode": {
+		"address": "Ponce de Leon & Juniper, Atlanta, GA" 
+	}, 
+	"price": 1078, 
+	"link": "http://gatech.uloop.com/housing/view.php/534886521/Ponce-de-Leon-amp-Juniper"
+},{
+	"name": "University House Midtown Summer Sublet 5 min walk to Georgia Tech 2br/2bath Apartment All Included Easy Move-in ", 
+	"geocode": {
+		"lat": 33.780038, 
+		"lng": -84.389144 
+	}, 
+	"price": 989, 
+	"link": "http://gatech.uloop.com/housing/view.php/541322570/University-House-Midtown-Summer-Sublet-5-min-walk-to-Georgia-Tech"
+},{
+	"name": "Sidney Marcus & GA400 ", 
+	"geocode": {
+		"lat": 33.824097, 
+		"lng": -84.356026 
+	}, 
+	"price": 1009, 
+	"link": "http://gatech.uloop.com/housing/view.php/536699423/Sidney-Marcus-amp-GA400"
+},{
+	"name": "1294 Piedmont Avenue ", 
+	"geocode": {
+		"lat": 33.767509, 
+		"lng": -84.382019 
+	}, 
+	"price": 1100, 
+	"link": "http://gatech.uloop.com/housing/view.php/537964586/1294-Piedmont-Avenue"
+},{
+	"name": "2829 Caldwell Rd. Apt 23441 ", 
+	"geocode": {
+		"address": "2829 Caldwell Rd. Apt 23441, Atlanta, GA" 
+	}, 
+	"price": 955, 
+	"link": "http://gatech.uloop.com/housing/view.php/542561066/2829-Caldwell-Rd-Apt-23441"
+},{
+	"name": "Collier Flats ", 
+	"geocode": {
+		"lat": 33.809842, 
+		"lng": -84.419968 
+	}, 
+	"price": 995, 
+	"link": "http://gatech.uloop.com/housing/view.php/533451336/Collier-Flats"
+},{
+	"name": "1050 Lenox Park Blvd. Apt 21630 ", 
+	"geocode": {
+		"address": "1050 Lenox Park Blvd. Apt 21630, Atlanta, GA" 
+	}, 
+	"price": 1180, 
+	"link": "http://gatech.uloop.com/housing/view.php/540663172/1050-Lenox-Park-Blvd-Apt-21630"
+},{
+	"name": "500 Northside ", 
+	"geocode": {
+		"lat": 33.800743, 
+		"lng": -84.400918 
+	}, 
+	"price": 900, 
+	"link": "http://gatech.uloop.com/housing/view.php/513177564/500-Northside"
+},{
+	"name": "1439 Graham St SW ", 
+	"geocode": {
+		"lat": 33.715568, 
+		"lng": -84.416351 
+	}, 
+	"price": 1300, 
+	"link": "http://gatech.uloop.com/housing/view.php/532575969/1439-Graham-St-SW"
+},{
+	"name": "2959 Forrest Hills Drive ", 
+	"geocode": {
+		"address": "2959 Forrest Hills Drive, Atlanta, GA" 
+	}, 
+	"price": 685, 
+	"link": "http://gatech.uloop.com/housing/view.php/532679376/2959-Forrest-Hills-Drive"
+},{
+	"name": "7210 Cavender Dr SW ", 
+	"geocode": {
+		"address": "7210 Cavender Dr SW, Atlanta, GA" 
+	}, 
+	"price": 1745, 
+	"link": "http://gatech.uloop.com/housing/view.php/534791131/7210-Cavender-Dr-SW"
+},{
+	"name": "1016 Howell Mill Road Apt 24107 ", 
+	"geocode": {
+		"address": "1016 Howell Mill Road Apt 24107, Atlanta, GA" 
+	}, 
+	"price": 1133, 
+	"link": "http://gatech.uloop.com/housing/view.php/542561771/1016-Howell-Mill-Road-Apt-24107"
+},{
+	"name": "92 West Paces Ferry Road NW Apt 20373 ", 
+	"geocode": {
+		"address": "92 West Paces Ferry Road NW Apt 20373, Atlanta, GA" 
+	}, 
+	"price": 1450, 
+	"link": "http://gatech.uloop.com/housing/view.php/534382349/92-West-Paces-Ferry-Road-NW-Apt-20373"
+},{
+	"name": "1145 West Ave SW ", 
+	"geocode": {
+		"lat": 33.723621, 
+		"lng": -84.395955 
+	}, 
+	"price": 995, 
+	"link": "http://gatech.uloop.com/housing/view.php/533447415/1145-West-Ave-SW"
+},{
+	"name": "1439 Venetian Dr SW ", 
+	"geocode": {
+		"lat": 33.714749, 
+		"lng": -84.435426 
+	}, 
+	"price": 1100, 
+	"link": "http://gatech.uloop.com/housing/view.php/532616849/1439-Venetian-Dr-SW"
+},{
+	"name": "289 Whitworth Dr ", 
+	"geocode": {
+		"address": "289 Whitworth Dr, Atlanta, GA" 
+	}, 
+	"price": 1000, 
+	"link": "http://gatech.uloop.com/housing/view.php/534367292/289-Whitworth-Dr"
+},{
+	"name": "297D Colonial Homes Circle Apt 20559 ", 
+	"geocode": {
+		"address": "297D Colonial Homes Circle Apt 20559, Atlanta, GA" 
+	}, 
+	"price": 1475, 
+	"link": "http://gatech.uloop.com/housing/view.php/534759927/297D-Colonial-Homes-Circle-Apt-20559"
+},{
+	"name": "5040 Cottage Grove Place ", 
+	"geocode": {
+		"address": "5040 Cottage Grove Place, Atlanta, GA" 
+	}, 
+	"price": 1200, 
+	"link": "http://gatech.uloop.com/housing/view.php/539782858/5040-Cottage-Grove-Place"
+},{
+	"name": "711 Argonne Ave NE ", 
+	"geocode": {
+		"lat": 33.773981, 
+		"lng": -84.377409 
+	}, 
+	"price": 1000, 
+	"link": "http://gatech.uloop.com/housing/view.php/536662519/711-Argonne-Ave-NE"
+},{
+	"name": "6374 Olmadison Place ", 
+	"geocode": {
+		"address": "6374 Olmadison Place, Atlanta, GA" 
+	}, 
+	"price": 1000, 
+	"link": "http://gatech.uloop.com/housing/view.php/534661733/6374-Olmadison-Place"
+},{
+	"name": "1020 Piedmont Ave ", 
+	"geocode": {
+		"lat": 33.767509, 
+		"lng": -84.382019 
+	}, 
+	"price": 2650, 
+	"link": "http://gatech.uloop.com/housing/view.php/538495441/1020-Piedmont-Ave"
+},{
+	"name": "1324 Gates Cir ", 
+	"geocode": {
+		"address": "1324 Gates Cir, Atlanta, GA" 
+	}, 
+	"price": 1350, 
+	"link": "http://gatech.uloop.com/housing/view.php/540599686/1324-Gates-Cir"
+},{
+	"name": "5867 Sheldon Court Unit B ", 
+	"geocode": {
+		"address": "5867 Sheldon Court Unit B, Atlanta, GA" 
+	}, 
+	"price": 850, 
+	"link": "http://gatech.uloop.com/housing/view.php/512375236/5867-Sheldon-Court-Unit-B"
+},{
+	"name": "64 Willis Mill Rd SW ", 
+	"geocode": {
+		"lat": 33.751219, 
+		"lng": -84.466253 
+	}, 
+	"price": 825, 
+	"link": "http://gatech.uloop.com/housing/view.php/534884262/64-Willis-Mill-Rd-SW"
+},{
+	"name": "Colonial Homes Dr NW Peachtree Rd NE ", 
+	"geocode": {
+		"address": "Colonial Homes Dr NW Peachtree Rd NE, Atlanta, GA" 
+	}, 
+	"price": 2199, 
+	"link": "http://gatech.uloop.com/housing/view.php/533138936/Colonial-Homes-Dr-NW-Peachtree-Rd-NE"
+},{
+	"name": "Ashford 2788 ", 
+	"geocode": {
+		"lat": 33.819211, 
+		"lng": -84.446846 
+	}, 
+	"price": 1100, 
+	"link": "http://gatech.uloop.com/housing/view.php/515470235/Ashford-2788"
+},{
+	"name": "40 Peachtree Valley Road NE Apt 23186 ", 
+	"geocode": {
+		"address": "40 Peachtree Valley Road NE Apt 23186, Atlanta, GA" 
+	}, 
+	"price": 1128, 
+	"link": "http://gatech.uloop.com/housing/view.php/534759995/40-Peachtree-Valley-Road-NE-Apt-23186"
+},{
+	"name": "Peachtree Road ", 
+	"geocode": {
+		"lat": 33.811562, 
+		"lng": -84.392276 
+	}, 
+	"price": 1447, 
+	"link": "http://gatech.uloop.com/housing/view.php/543715852/Peachtree-Road"
+},{
+	"name": "2144 peachtree rd 1001 ", 
+	"geocode": {
+		"address": "2144 peachtree rd 1001, Atlanta, GA" 
+	}, 
+	"price": 3200, 
+	"link": "http://gatech.uloop.com/housing/view.php/543358814/2144-peachtree-rd-1001"
+},{
+	"name": "1684 Stokes Ave SW ", 
+	"geocode": {
+		"lat": 33.740717, 
+		"lng": -84.442857 
+	}, 
+	"price": 1400, 
+	"link": "http://gatech.uloop.com/housing/view.php/535908151/1684-Stokes-Ave-SW"
+},{
+	"name": "Central Park Pl NE & Pine St NE ", 
+	"geocode": {
+		"address": "Central Park Pl NE & Pine St NE, Atlanta, GA" 
+	}, 
+	"price": 1365, 
+	"link": "http://gatech.uloop.com/housing/view.php/533297724/Central-Park-Pl-NE-amp-Pine-St-NE"
+},{
+	"name": "1861 Sylvan Rd SW ", 
+	"geocode": {
+		"lat": 33.726407, 
+		"lng": -84.418101 
+	}, 
+	"price": 995, 
+	"link": "http://gatech.uloop.com/housing/view.php/540189261/1861-Sylvan-Rd-SW"
+},{
+	"name": "966 Moda Dr ", 
+	"geocode": {
+		"address": "966 Moda Dr, Atlanta, GA" 
+	}, 
+	"price": 2950, 
+	"link": "http://gatech.uloop.com/housing/view.php/533345793/966-Moda-Dr"
+},{
+	"name": "44 Krog St Apt 20142 ", 
+	"geocode": {
+		"address": "44 Krog St Apt 20142, Atlanta, GA" 
+	}, 
+	"price": 1585, 
+	"link": "http://gatech.uloop.com/housing/view.php/534676858/44-Krog-St-Apt-20142"
+},{
+	"name": "794 Confederate Avenue SE ", 
+	"geocode": {
+		"lat": 33.732673, 
+		"lng": -84.364700 
+	}, 
+	"price": 2000, 
+	"link": "http://gatech.uloop.com/housing/view.php/541109949/794-Confederate-Avenue-SE"
+},{
+	"name": "Arbors at Berkeley ", 
+	"geocode": {
+		"address": "743 Holmes St N.W., Atlanta, GA" 
+	}, 
+	"price": 950, 
+	"link": "http://gatech.uloop.com/housing/view.php/515469884/Arbors-at-Berkeley"
+},{
+	"name": " Private Room + Private Bathroom in 2b2.5b townhouse (West Buckhead) ", 
+	"geocode": {
+		"lat": 33.815296, 
+		"lng": -84.425472 
+	}, 
+	"price": 800, 
+	"link": "http://gatech.uloop.com/housing/view.php/542329241/-Private-Room--Private-Bathroom-in-2b25b-townhouse-West-Buckhead"
+},{
+	"name": "171 Auburn Ave NE Apt 23103 ", 
+	"geocode": {
+		"address": "171 Auburn Ave NE Apt 23103, Atlanta, GA" 
+	}, 
+	"price": 1250, 
+	"link": "http://gatech.uloop.com/housing/view.php/534384872/171-Auburn-Ave-NE-Apt-23103"
+},{
+	"name": "Huff Rd & Marietta Blvd. ", 
+	"geocode": {
+		"address": "Huff Rd & Marietta Blvd., Atlanta, GA" 
+	}, 
+	"price": 1143, 
+	"link": "http://gatech.uloop.com/housing/view.php/534617471/Huff-Rd-amp-Marietta-Blvd"
+},{
+	"name": "Peachtree RD NE & Stratford RD NE ", 
+	"geocode": {
+		"address": "Peachtree RD NE & Stratford RD NE, Atlanta, GA" 
+	}, 
+	"price": 1620, 
+	"link": "http://gatech.uloop.com/housing/view.php/532655733/Peachtree-RD-NE-amp-Stratford-RD-NE"
+},{
+	"name": "480 NE Peachtree Hills Ave Apt 24758 ", 
+	"geocode": {
+		"address": "480 NE Peachtree Hills Ave Apt 24758, Atlanta, GA" 
+	}, 
+	"price": 875, 
+	"link": "http://gatech.uloop.com/housing/view.php/534382119/480-NE-Peachtree-Hills-Ave-Apt-24758"
+},{
+	"name": "Wood Terrace ", 
+	"geocode": {
+		"address": "100 Wood Terrace Place, Atlanta, GA" 
+	}, 
+	"price": 900, 
+	"link": "http://gatech.uloop.com/housing/view.php/515468438/Wood-Terrace"
+},{
+	"name": "1701 Northside Drive Apt 20019 ", 
+	"geocode": {
+		"address": "1701 Northside Drive Apt 20019, Atlanta, GA" 
+	}, 
+	"price": 1192, 
+	"link": "http://gatech.uloop.com/housing/view.php/542561906/1701-Northside-Drive-Apt-20019"
+},{
+	"name": "3613 Ginnis Road SW Unit #4 ", 
+	"geocode": {
+		"address": "3613 Ginnis Road SW Unit #4, Atlanta, GA" 
+	}, 
+	"price": 1000, 
+	"link": "http://gatech.uloop.com/housing/view.php/536664326/3613-Ginnis-Road-SW-Unit-4"
+},{
+	"name": "Juniper Street ", 
+	"geocode": {
+		"address": "Juniper Street, Atlanta, GA" 
+	}, 
+	"price": 869, 
+	"link": "http://gatech.uloop.com/housing/view.php/543716120/Juniper-Street"
+},{
+	"name": "3324 Peachtree Rd NE Unit 2404 ", 
+	"geocode": {
+		"address": "3324 Peachtree Rd NE Unit 2404, Atlanta, GA" 
+	}, 
+	"price": 1650, 
+	"link": "http://gatech.uloop.com/housing/view.php/529875048/3324-Peachtree-Rd-NE-Unit-2404"
+},{
+	"name": "Valley View Road ", 
+	"geocode": {
+		"address": "Valley View Road, Atlanta, GA" 
+	}, 
+	"price": 910, 
+	"link": "http://gatech.uloop.com/housing/view.php/544166199/Valley-View-Road"
+},{
+	"name": "525 Glen Iris Drive NE Apt 22167 ", 
+	"geocode": {
+		"address": "525 Glen Iris Drive NE Apt 22167, Atlanta, GA" 
+	}, 
+	"price": 1461, 
+	"link": "http://gatech.uloop.com/housing/view.php/534699646/525-Glen-Iris-Drive-NE-Apt-22167"
+},{
+	"name": "Cityline Ave NE & Central Park Pl ", 
+	"geocode": {
+		"address": "Cityline Ave NE & Central Park Pl, Atlanta, GA" 
+	}, 
+	"price": 1411, 
+	"link": "http://gatech.uloop.com/housing/view.php/532583975/Cityline-Ave-NE-amp-Central-Park-Pl"
+},{
+	"name": "Modera Morningside ", 
+	"geocode": {
+		"lat": 33.771371, 
+		"lng": -84.381891 
+	}, 
+	"price": 1695, 
+	"link": "http://gatech.uloop.com/housing/view.php/495493408/Modera-Morningside"
+},{
+	"name": "3450 Blair Circle Apt 22702 ", 
+	"geocode": {
+		"address": "3450 Blair Circle Apt 22702, Atlanta, GA" 
+	}, 
+	"price": 1267, 
+	"link": "http://gatech.uloop.com/housing/view.php/542561503/3450-Blair-Circle-Apt-22702"
+},{
+	"name": "Syndey Marcus Blvd & Pine Tree Rd ", 
+	"geocode": {
+		"address": "Syndey Marcus Blvd & Pine Tree Rd, Atlanta, GA" 
+	}, 
+	"price": 999, 
+	"link": "http://gatech.uloop.com/housing/view.php/534296557/Syndey-Marcus-Blvd-amp-Pine-Tree-Rd"
+},{
+	"name": "Piedmont Ave NE & Pine ST NE ", 
+	"geocode": {
+		"address": "Piedmont Ave NE & Pine ST NE, Atlanta, GA" 
+	}, 
+	"price": 1295, 
+	"link": "http://gatech.uloop.com/housing/view.php/515559258/Piedmont-Ave-NE-amp-Pine-ST-NE"
+},{
+	"name": "Shallowford Road ", 
+	"geocode": {
+		"lat": 34.033212, 
+		"lng": -84.441721 
+	}, 
+	"price": 920, 
+	"link": "http://gatech.uloop.com/housing/view.php/543717438/Shallowford-Road"
+},{
+	"name": "W Peachtree St NW & 8th ST NE ", 
+	"geocode": {
+		"address": "W Peachtree St NW & 8th ST NE, Atlanta, GA" 
+	}, 
+	"price": 2250, 
+	"link": "http://gatech.uloop.com/housing/view.php/533248993/W-Peachtree-St-NW-amp-8th-ST-NE"
+},{
+	"name": "3607 Roxboro Road ", 
+	"geocode": {
+		"lat": 33.849395, 
+		"lng": -84.353375 
+	}, 
+	"price": 1150, 
+	"link": "http://gatech.uloop.com/housing/view.php/538399611/3607-Roxboro-Road"
+},{
+	"name": "1574-B Cave Road NW ", 
+	"geocode": {
+		"address": "1574-B Cave Road NW, Atlanta, GA" 
+	}, 
+	"price": 3500, 
+	"link": "http://gatech.uloop.com/housing/view.php/533545763/1574-B-Cave-Road-NW"
+},{
+	"name": "2040 Settle Cir SE ", 
+	"geocode": {
+		"address": "2040 Settle Cir SE, Atlanta, GA" 
+	}, 
+	"price": 1495, 
+	"link": "http://gatech.uloop.com/housing/view.php/534175407/2040-Settle-Cir-SE"
+},{
+	"name": "589-603 Seminole Ave ", 
+	"geocode": {
+		"address": "589-603 Seminole Ave, Atlanta, GA" 
+	}, 
+	"price": 950, 
+	"link": "http://gatech.uloop.com/housing/view.php/532441835/589-603-Seminole-Ave"
+},{
+	"name": "Central Park Place ", 
+	"geocode": {
+		"address": "Central Park Place, Atlanta, GA" 
+	}, 
+	"price": 932, 
+	"link": "http://gatech.uloop.com/housing/view.php/543716189/Central-Park-Place"
+},{
+	"name": "195 14th Street NE  Unit 1005 ", 
+	"geocode": {
+		"address": "195 14th Street NE  Unit 1005, Atlanta, GA" 
+	}, 
+	"price": 2200, 
+	"link": "http://gatech.uloop.com/housing/view.php/541016800/195-14th-Street-NE-Unit-1005"
+},{
+	"name": "Wright Ave NE & E Paces Ferry Road ", 
+	"geocode": {
+		"address": "Wright Ave NE & E Paces Ferry Road, Atlanta, GA" 
+	}, 
+	"price": 1300, 
+	"link": "http://gatech.uloop.com/housing/view.php/532337914/Wright-Ave-NE-amp-E-Paces-Ferry-Road"
+},{
+	"name": "987 Katherwood Drive ", 
+	"geocode": {
+		"lat": 33.710985, 
+		"lng": -84.420582 
+	}, 
+	"price": 995, 
+	"link": "http://gatech.uloop.com/housing/view.php/539804592/987-Katherwood-Drive"
+},{
+	"name": "Peachtree Rd & Colonial Homes Drive ", 
+	"geocode": {
+		"address": "Peachtree Rd & Colonial Homes Drive, Atlanta, GA" 
+	}, 
+	"price": 1104, 
+	"link": "http://gatech.uloop.com/housing/view.php/534277369/Peachtree-Rd-amp-Colonial-Homes-Drive"
+},{
+	"name": "3242 Peachtree Rd Nw Apt 20399 ", 
+	"geocode": {
+		"address": "3242 Peachtree Rd Nw Apt 20399, Atlanta, GA" 
+	}, 
+	"price": 1570, 
+	"link": "http://gatech.uloop.com/housing/view.php/534381968/3242-Peachtree-Rd-Nw-Apt-20399"
+},{
+	"name": "2802 3rd Ave SW ", 
+	"geocode": {
+		"lat": 33.678455, 
+		"lng": -84.402140 
+	}, 
+	"price": 800, 
+	"link": "http://gatech.uloop.com/housing/view.php/541693772/2802-3rd-Ave-SW"
+},{
+	"name": "933 Mathews Street ", 
+	"geocode": {
+		"address": "933 Mathews Street, Atlanta, GA" 
+	}, 
+	"price": 850, 
+	"link": "http://gatech.uloop.com/housing/view.php/534539192/933-Mathews-Street"
+},{
+	"name": "Mattress Factory Lofts ", 
+	"geocode": {
+		"lat": 33.747487, 
+		"lng": -84.377670 
+	}, 
+	"price": 1200, 
+	"link": "http://gatech.uloop.com/housing/view.php/534773715/Mattress-Factory-Lofts"
+},{
+	"name": "1637 Laurel Aveneu NW ", 
+	"geocode": {
+		"address": "1637 Laurel Aveneu NW, Atlanta, GA" 
+	}, 
+	"price": 2500, 
+	"link": "http://gatech.uloop.com/housing/view.php/534180438/1637-Laurel-Aveneu-NW"
+},{
+	"name": "The Brooke ", 
+	"geocode": {
+		"lat": 34.041506, 
+		"lng": -84.479390 
+	}, 
+	"price": 1022, 
+	"link": "http://gatech.uloop.com/housing/view.php/506750739/The-Brooke"
+},{
+	"name": "930 Howell Mill Road Apt 20201 ", 
+	"geocode": {
+		"address": "930 Howell Mill Road Apt 20201, Atlanta, GA" 
+	}, 
+	"price": 1230, 
+	"link": "http://gatech.uloop.com/housing/view.php/542561435/930-Howell-Mill-Road-Apt-20201"
+},{
+	"name": "Andrew's Court Apartments ", 
+	"geocode": {
+		"lat": 33.773378, 
+		"lng": -84.356052 
+	}, 
+	"price": 1045, 
+	"link": "http://gatech.uloop.com/housing/view.php/532899046/Andrews-Court-Apartments"
+},{
+	"name": "Decatur St SE & Grant St SE ", 
+	"geocode": {
+		"address": "Decatur St SE & Grant St SE, Atlanta, GA" 
+	}, 
+	"price": 1209, 
+	"link": "http://gatech.uloop.com/housing/view.php/534315410/Decatur-St-SE-amp-Grant-St-SE"
+},{
+	"name": "974 Welch Street ", 
+	"geocode": {
+		"address": "974 Welch Street, Atlanta, GA" 
+	}, 
+	"price": 825, 
+	"link": "http://gatech.uloop.com/housing/view.php/539775843/974-Welch-Street"
+},{
+	"name": "32 Peachtree Street.  Unit 907 ", 
+	"geocode": {
+		"address": "32 Peachtree Street.  Unit 907, Atlanta, GA" 
+	}, 
+	"price": 1495, 
+	"link": "http://gatech.uloop.com/housing/view.php/534375745/32-Peachtree-Street-Unit-907"
+},{
+	"name": "Kirkwood Flats Apartments ", 
+	"geocode": {
+		"lat": 33.746637, 
+		"lng": -84.355198 
+	}, 
+	"price": 675, 
+	"link": "http://gatech.uloop.com/housing/view.php/534720325/Kirkwood-Flats-Apartments"
+},{
+	"name": "Downwood Circle & Howell Mill RD NW ", 
+	"geocode": {
+		"address": "Downwood Circle & Howell Mill RD NW, Atlanta, GA" 
+	}, 
+	"price": 1395, 
+	"link": "http://gatech.uloop.com/housing/view.php/533318145/Downwood-Circle-amp-Howell-Mill-RD-NW"
+},{
+	"name": "955 Greenwood Avenue ", 
+	"geocode": {
+		"address": "955 Greenwood Avenue, Atlanta, GA" 
+	}, 
+	"price": 1225, 
+	"link": "http://gatech.uloop.com/housing/view.php/543291137/955-Greenwood-Avenue"
+},{
+	"name": "Chastain Heights ", 
+	"geocode": {
+		"address": "225 Franklin Rd, Atlanta, GA" 
+	}, 
+	"price": 1405, 
+	"link": "http://gatech.uloop.com/housing/view.php/530291226/Chastain-Heights"
+},{
+	"name": "West Peachtree ST NW & 12th ST ", 
+	"geocode": {
+		"address": "West Peachtree ST NW & 12th ST, Atlanta, GA" 
+	}, 
+	"price": 1618, 
+	"link": "http://gatech.uloop.com/housing/view.php/534755997/West-Peachtree-ST-NW-amp-12th-ST"
+},{
+	"name": "625 NE Piedmont Ave Apt 20260 ", 
+	"geocode": {
+		"address": "625 NE Piedmont Ave Apt 20260, Atlanta, GA" 
+	}, 
+	"price": 1605, 
+	"link": "http://gatech.uloop.com/housing/view.php/534700253/625-NE-Piedmont-Ave-Apt-20260"
+},{
+	"name": "949 Greenwood Avenue NE ", 
+	"geocode": {
+		"lat": 33.776334, 
+		"lng": -84.356237 
+	}, 
+	"price": 1225, 
+	"link": "http://gatech.uloop.com/housing/view.php/540230193/949-Greenwood-Avenue-NE"
+},{
+	"name": "404 Linden Ave Unit A ", 
+	"geocode": {
+		"address": "404 Linden Ave Unit A, Atlanta, GA" 
+	}, 
+	"price": 995, 
+	"link": "http://gatech.uloop.com/housing/view.php/539740275/404-Linden-Ave-Unit-A"
+},{
+	"name": "House Share ", 
+	"geocode": {
+		"lat": 33.767081, 
+		"lng": -84.370179 
+	}, 
+	"price": 1050, 
+	"link": "http://gatech.uloop.com/housing/view.php/538822155/House-Share"
+},{
+	"name": "1576 Folkstone Road ", 
+	"geocode": {
+		"address": "1576 Folkstone Road, Atlanta, GA" 
+	}, 
+	"price": 1700, 
+	"link": "http://gatech.uloop.com/housing/view.php/532574760/1576-Folkstone-Road"
+},{
+	"name": "4135 Jeffrey Drive ", 
+	"geocode": {
+		"address": "4135 Jeffrey Drive, Atlanta, GA" 
+	}, 
+	"price": 1150, 
+	"link": "http://gatech.uloop.com/housing/view.php/538003125/4135-Jeffrey-Drive"
+},{
+	"name": "17th St NW & State St NW ", 
+	"geocode": {
+		"address": "17th St NW & State St NW, Atlanta, GA" 
+	}, 
+	"price": 3365, 
+	"link": "http://gatech.uloop.com/housing/view.php/532940334/17th-St-NW-amp-State-St-NW"
+},{
+	"name": "South Colonial Homes Cir & Peachtree Rd NW ", 
+	"geocode": {
+		"address": "South Colonial Homes Cir & Peachtree Rd NW, Atlanta, GA" 
+	}, 
+	"price": 1479, 
+	"link": "http://gatech.uloop.com/housing/view.php/532929399/South-Colonial-Homes-Cir-amp-Peachtree-Rd-NW"
+},{
+	"name": "One12 Courtland ", 
+	"geocode": {
+		"lat": 33.757728, 
+		"lng": -84.385041 
+	}, 
+	"price": 995, 
+	"link": "http://gatech.uloop.com/housing/view.php/513179527/One12-Courtland"
+},{
+	"name": "271 Glen Iris Dr. NE ", 
+	"geocode": {
+		"lat": 33.761939, 
+		"lng": -84.367401 
+	}, 
+	"price": 1350, 
+	"link": "http://gatech.uloop.com/housing/view.php/534255378/271-Glen-Iris-Dr-NE"
+},{
+	"name": "585 McWilliams Rd SE Unit 2006 ", 
+	"geocode": {
+		"address": "585 McWilliams Rd SE Unit 2006, Atlanta, GA" 
+	}, 
+	"price": 1100, 
+	"link": "http://gatech.uloop.com/housing/view.php/543703733/585-McWilliams-Rd-SE-Unit-2006"
+},{
+	"name": "2144 Peachtree Road NW Apt 20408 ", 
+	"geocode": {
+		"address": "2144 Peachtree Road NW Apt 20408, Atlanta, GA" 
+	}, 
+	"price": 1677, 
+	"link": "http://gatech.uloop.com/housing/view.php/534760246/2144-Peachtree-Road-NW-Apt-20408"
+},{
+	"name": "233 Kinsey Ct. NE Unit B ", 
+	"geocode": {
+		"address": "233 Kinsey Ct. NE Unit B, Atlanta, GA" 
+	}, 
+	"price": 1375, 
+	"link": "http://gatech.uloop.com/housing/view.php/534222652/233-Kinsey-Ct-NE-Unit-B"
+},{
+	"name": "Howell Mill Rd & Defoor Ave NW ", 
+	"geocode": {
+		"address": "Howell Mill Rd & Defoor Ave NW, Atlanta, GA" 
+	}, 
+	"price": 1325, 
+	"link": "http://gatech.uloop.com/housing/view.php/532933131/Howell-Mill-Rd-amp-Defoor-Ave-NW"
+},{
+	"name": "943 Greenwood Avenue ", 
+	"geocode": {
+		"address": "943 Greenwood Avenue, Atlanta, GA" 
+	}, 
+	"price": 1225, 
+	"link": "http://gatech.uloop.com/housing/view.php/540230424/943-Greenwood-Avenue"
+},{
+	"name": "Master Bedroom with own bathroom and walk in closet ", 
+	"geocode": {
+		"lat": 33.815296, 
+		"lng": -84.425472 
+	}, 
+	"price": 850, 
+	"link": "http://gatech.uloop.com/housing/view.php/532599619/Master-Bedroom-with-own-bathroom-and-walk-in-closet"
+},{
+	"name": "Lindbergh / Piedmont ", 
+	"geocode": {
+		"address": "Lindbergh / Piedmont, Atlanta, GA" 
+	}, 
+	"price": 1206, 
+	"link": "http://gatech.uloop.com/housing/view.php/534429201/Lindbergh--Piedmont"
+},{
+	"name": "20 Terminus Place Apt 20323 ", 
+	"geocode": {
+		"address": "20 Terminus Place Apt 20323, Atlanta, GA" 
+	}, 
+	"price": 1191, 
+	"link": "http://gatech.uloop.com/housing/view.php/534382213/20-Terminus-Place-Apt-20323"
+},{
+	"name": "305 Brookhaven Ave Apt 22358 ", 
+	"geocode": {
+		"address": "305 Brookhaven Ave Apt 22358, Atlanta, GA" 
+	}, 
+	"price": 1265, 
+	"link": "http://gatech.uloop.com/housing/view.php/542561230/305-Brookhaven-Ave-Apt-22358"
+},{
+	"name": "1612 Stokes Ave SW ", 
+	"geocode": {
+		"lat": 33.740719, 
+		"lng": -84.440539 
+	}, 
+	"price": 845, 
+	"link": "http://gatech.uloop.com/housing/view.php/538036352/1612-Stokes-Ave-SW"
+},{
+	"name": "306 Ardmore Cir NW Apt 20371 ", 
+	"geocode": {
+		"address": "306 Ardmore Cir NW Apt 20371, Atlanta, GA" 
+	}, 
+	"price": 1355, 
+	"link": "http://gatech.uloop.com/housing/view.php/534727319/306-Ardmore-Cir-NW-Apt-20371"
+},{
+	"name": "West Peachtree & 12th St ", 
+	"geocode": {
+		"address": "West Peachtree & 12th St, Atlanta, GA" 
+	}, 
+	"price": 1229, 
+	"link": "http://gatech.uloop.com/housing/view.php/534795651/West-Peachtree-amp-12th-St"
+},{
+	"name": "Lenox Rd ", 
+	"geocode": {
+		"lat": 33.850391, 
+		"lng": -84.361856 
+	}, 
+	"price": 1037, 
+	"link": "http://gatech.uloop.com/housing/view.php/534406740/Lenox-Rd"
+},{
+	"name": "662 McDonough Blvd ", 
+	"geocode": {
+		"lat": 33.454723, 
+		"lng": -84.150638 
+	}, 
+	"price": 1195, 
+	"link": "http://gatech.uloop.com/housing/view.php/542460306/662-McDonough-Blvd"
+},{
+	"name": "1020 Lenox Park Blvd. Apt 23463 ", 
+	"geocode": {
+		"address": "1020 Lenox Park Blvd. Apt 23463, Atlanta, GA" 
+	}, 
+	"price": 1125, 
+	"link": "http://gatech.uloop.com/housing/view.php/542561839/1020-Lenox-Park-Blvd-Apt-23463"
+},{
+	"name": "396 Piedmont Ave NE Apt 22165 ", 
+	"geocode": {
+		"address": "396 Piedmont Ave NE Apt 22165, Atlanta, GA" 
+	}, 
+	"price": 1280, 
+	"link": "http://gatech.uloop.com/housing/view.php/534700623/396-Piedmont-Ave-NE-Apt-22165"
+},{
+	"name": "Looking to sublet room for the summer 2017-- would be living with 3 other male housemates. ", 
+	"geocode": {
+		"address": "1220 A Barnes Street, Atlanta, GA" 
+	}, 
+	"price": 700, 
+	"link": "http://gatech.uloop.com/housing/view.php/543199880/Looking-to-sublet-room-for-the-summer-2017---would-be-living-with-3"
+},{
+	"name": "1009 Forest Valley Drive SE ", 
+	"geocode": {
+		"lat": 33.652048, 
+		"lng": -84.356548 
+	}, 
+	"price": 950, 
+	"link": "http://gatech.uloop.com/housing/view.php/534178181/1009-Forest-Valley-Drive-SE"
+},{
+	"name": "Lindbergh Dr & Morosgo ", 
+	"geocode": {
+		"address": "Lindbergh Dr & Morosgo, Atlanta, GA" 
+	}, 
+	"price": 1060, 
+	"link": "http://gatech.uloop.com/housing/view.php/534386276/Lindbergh-Dr-amp-Morosgo"
+},{
+	"name": "North Ave ", 
+	"geocode": {
+		"lat": 33.772330, 
+		"lng": -84.387172 
+	}, 
+	"price": 1083, 
+	"link": "http://gatech.uloop.com/housing/view.php/543716896/North-Ave"
+},{
+	"name": "Walton Riverwood ", 
+	"geocode": {
+		"lat": 33.876989, 
+		"lng": -84.457496 
+	}, 
+	"price": 1325, 
+	"link": "http://gatech.uloop.com/housing/view.php/466483352/Walton-Riverwood"
+},{
+	"name": "3022 Deerborne Court SW ", 
+	"geocode": {
+		"address": "3022 Deerborne Court SW, Atlanta, GA" 
+	}, 
+	"price": 1150, 
+	"link": "http://gatech.uloop.com/housing/view.php/532499872/3022-Deerborne-Court-SW"
+},{
+	"name": "Piedmont Ave & 10th Street ", 
+	"geocode": {
+		"address": "Piedmont Ave & 10th Street, Atlanta, GA" 
+	}, 
+	"price": 1550, 
+	"link": "http://gatech.uloop.com/housing/view.php/534243789/Piedmont-Ave-amp-10th-Street"
+},{
+	"name": "493 N. Highland Avenue NE ", 
+	"geocode": {
+		"lat": 33.767571, 
+		"lng": -84.352278 
+	}, 
+	"price": 1000, 
+	"link": "http://gatech.uloop.com/housing/view.php/540185435/493-N-Highland-Avenue-NE"
+},{
+	"name": "Piedmont Ave NE & Auburn Ave NE ", 
+	"geocode": {
+		"address": "Piedmont Ave NE & Auburn Ave NE, Atlanta, GA" 
+	}, 
+	"price": 1250, 
+	"link": "http://gatech.uloop.com/housing/view.php/515560269/Piedmont-Ave-NE-amp-Auburn-Ave-NE"
+},{
+	"name": "Ashford Embry Hills ", 
+	"geocode": {
+		"address": "3207 Henderson Mill Rd, Atlanta, GA" 
+	}, 
+	"price": 1085, 
+	"link": "http://gatech.uloop.com/housing/view.php/462958710/Ashford-Embry-Hills"
+},{
+	"name": "1145 Carlo Woods Dr Sw ", 
+	"geocode": {
+		"address": "1145 Carlo Woods Dr Sw, Atlanta, GA" 
+	}, 
+	"price": 1200, 
+	"link": "http://gatech.uloop.com/housing/view.php/541030363/1145-Carlo-Woods-Dr-Sw"
+},{
+	"name": "1400 Briarcliff Road NE Apt 21342 ", 
+	"geocode": {
+		"address": "1400 Briarcliff Road NE Apt 21342, Atlanta, GA" 
+	}, 
+	"price": 1217, 
+	"link": "http://gatech.uloop.com/housing/view.php/534427744/1400-Briarcliff-Road-NE-Apt-21342"
+},{
+	"name": "Pine Tree Rd NE & Sidney Marcus Blvd NE ", 
+	"geocode": {
+		"address": "Pine Tree Rd NE & Sidney Marcus Blvd NE, Atlanta, GA" 
+	}, 
+	"price": 1005, 
+	"link": "http://gatech.uloop.com/housing/view.php/532647861/Pine-Tree-Rd-NE-amp-Sidney-Marcus-Blvd-NE"
+},{
+	"name": "978 Sims Ave NW ", 
+	"geocode": {
+		"lat": 33.781672, 
+		"lng": -84.453673 
+	}, 
+	"price": 1195, 
+	"link": "http://gatech.uloop.com/housing/view.php/543708321/978-Sims-Ave-NW"
+},{
+	"name": "Northeast Expy I-85 Frontage RD ", 
+	"geocode": {
+		"address": "Northeast Expy I-85 Frontage RD, Atlanta, GA" 
+	}, 
+	"price": 920, 
+	"link": "http://gatech.uloop.com/housing/view.php/543749429/Northeast-Expy-I-85-Frontage-RD"
+},{
+	"name": "Pharr Rd & North Fulton DR NE ", 
+	"geocode": {
+		"address": "Pharr Rd & North Fulton DR NE, Atlanta, GA" 
+	}, 
+	"price": 1447, 
+	"link": "http://gatech.uloop.com/housing/view.php/532489491/Pharr-Rd-amp-North-Fulton-DR-NE"
+},{
+	"name": "207 13th Street Apt 20436 ", 
+	"geocode": {
+		"address": "207 13th Street Apt 20436, Atlanta, GA" 
+	}, 
+	"price": 1550, 
+	"link": "http://gatech.uloop.com/housing/view.php/534760314/207-13th-Street-Apt-20436"
+},{
+	"name": "Briarcliff Rd & Gables Way ", 
+	"geocode": {
+		"address": "Briarcliff Rd & Gables Way, Atlanta, GA" 
+	}, 
+	"price": 1097, 
+	"link": "http://gatech.uloop.com/housing/view.php/534327304/Briarcliff-Rd-amp-Gables-Way"
+},{
+	"name": "503 Cohen Street ", 
+	"geocode": {
+		"address": "503 Cohen Street, Atlanta, GA" 
+	}, 
+	"price": 150, 
+	"link": "http://gatech.uloop.com/housing/view.php/540192675/503-Cohen-Street"
+},{
+	"name": "2115 Piedmont RD NE ", 
+	"geocode": {
+		"lat": 33.812971, 
+		"lng": -84.366590 
+	}, 
+	"price": 2300, 
+	"link": "http://gatech.uloop.com/housing/view.php/543359322/2115-Piedmont-RD-NE"
+},{
+	"name": "250 Piedmont Ave NE Apt 20433 ", 
+	"geocode": {
+		"address": "250 Piedmont Ave NE Apt 20433, Atlanta, GA" 
+	}, 
+	"price": 1321, 
+	"link": "http://gatech.uloop.com/housing/view.php/534700078/250-Piedmont-Ave-NE-Apt-20433"
+},{
+	"name": "2950 Springdale Rd SW Apt 20377 ", 
+	"geocode": {
+		"address": "2950 Springdale Rd SW Apt 20377, Atlanta, GA" 
+	}, 
+	"price": 610, 
+	"link": "http://gatech.uloop.com/housing/view.php/541729481/2950-Springdale-Rd-SW-Apt-20377"
+},{
+	"name": "530 Piedmont Ave NE Apt 24033 ", 
+	"geocode": {
+		"address": "530 Piedmont Ave NE Apt 24033, Atlanta, GA" 
+	}, 
+	"price": 1230, 
+	"link": "http://gatech.uloop.com/housing/view.php/534699719/530-Piedmont-Ave-NE-Apt-24033"
+},{
+	"name": "873 Monroe Circle NE ", 
+	"geocode": {
+		"lat": 33.778486, 
+		"lng": -84.368051 
+	}, 
+	"price": 3400, 
+	"link": "http://gatech.uloop.com/housing/view.php/534790144/873-Monroe-Circle-NE"
+},{
+	"name": "100 Montag Circle NE Apt 23000 ", 
+	"geocode": {
+		"address": "100 Montag Circle NE Apt 23000, Atlanta, GA" 
+	}, 
+	"price": 1390, 
+	"link": "http://gatech.uloop.com/housing/view.php/534676961/100-Montag-Circle-NE-Apt-23000"
+},{
+	"name": "300 Cityline Ave NE Apt 20370 ", 
+	"geocode": {
+		"address": "300 Cityline Ave NE Apt 20370, Atlanta, GA" 
+	}, 
+	"price": 990, 
+	"link": "http://gatech.uloop.com/housing/view.php/534700474/300-Cityline-Ave-NE-Apt-20370"
+},{
+	"name": "3445 Stratford Rd. Ne # 2709 ", 
+	"geocode": {
+		"address": "3445 Stratford Rd. Ne # 2709, Atlanta, GA" 
+	}, 
+	"price": 2150, 
+	"link": "http://gatech.uloop.com/housing/view.php/534197073/3445-Stratford-Rd-Ne--2709"
+},{
+	"name": "1431 blyss ave ", 
+	"geocode": {
+		"address": "1431 blyss ave, Atlanta, GA" 
+	}, 
+	"price": 825, 
+	"link": "http://gatech.uloop.com/housing/view.php/540194945/1431-blyss-ave"
+},{
+	"name": "70 Spruce Street NE ", 
+	"geocode": {
+		"lat": 33.755536, 
+		"lng": -84.361306 
+	}, 
+	"price": 1100, 
+	"link": "http://gatech.uloop.com/housing/view.php/538440551/70-Spruce-Street-NE"
+},{
+	"name": "1115 Ponce de Leon Avenue ", 
+	"geocode": {
+		"address": "1115 Ponce de Leon Avenue, Atlanta, GA" 
+	}, 
+	"price": 1500, 
+	"link": "http://gatech.uloop.com/housing/view.php/518321722/1115-Ponce-de-Leon-Avenue"
+},{
+	"name": "3284 Sugar Creek Falls Avenue SE ", 
+	"geocode": {
+		"lat": 33.689366, 
+		"lng": -84.305578 
+	}, 
+	"price": 925, 
+	"link": "http://gatech.uloop.com/housing/view.php/539764222/3284-Sugar-Creek-Falls-Avenue-SE"
+},{
+	"name": "2801 Memorial Drive SE ", 
+	"geocode": {
+		"lat": 33.747018, 
+		"lng": -84.294919 
+	}, 
+	"price": 2100, 
+	"link": "http://gatech.uloop.com/housing/view.php/541106557/2801-Memorial-Drive-SE"
+},{
+	"name": "3645 Habersham Rd NE Apt 22376 ", 
+	"geocode": {
+		"address": "3645 Habersham Rd NE Apt 22376, Atlanta, GA" 
+	}, 
+	"price": 1429, 
+	"link": "http://gatech.uloop.com/housing/view.php/534381539/3645-Habersham-Rd-NE-Apt-22376"
+},{
+	"name": "2124 Gables Drive Apt 22241 ", 
+	"geocode": {
+		"address": "2124 Gables Drive Apt 22241, Atlanta, GA" 
+	}, 
+	"price": 1045, 
+	"link": "http://gatech.uloop.com/housing/view.php/542561368/2124-Gables-Drive-Apt-22241"
+},{
+	"name": "1105 Town Brookhaven ", 
+	"geocode": {
+		"address": "1105 Town Blvd, Atlanta, GA" 
+	}, 
+	"price": 1449, 
+	"link": "http://gatech.uloop.com/housing/view.php/462276475/1105-Town-Brookhaven"
+}]
