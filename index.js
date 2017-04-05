@@ -217,7 +217,6 @@ var result = [];
 //      });
 //  });
 function initMap() {
-
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: 14,
         center: {
@@ -236,7 +235,7 @@ function initMap() {
             map: map,
             infowindow: myinfowindow
         });
-        markerArray.push(marker); //Maintain markers inside an array
+        markerArray.push(marker); // Maintain markers inside an array
         var myContent = "Address:  " + list[i].name + "\r" +
             "  Price:" + list[i].price + "  Distance:" + list[i].distance;
         var myinfowindow = new google.maps.InfoWindow({
