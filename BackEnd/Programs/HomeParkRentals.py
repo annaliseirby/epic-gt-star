@@ -1,10 +1,13 @@
 import requests
 from bs4 import BeautifulSoup as Soup
-from geopy.geocoders import Nominatim
+from geopy.distance import vincenty
 from geopy.exc import GeocoderTimedOut
+from geopy.geocoders import Nominatim
+
 
 MAIN_URL = 'https://www.homeparkrentals.com/listings/'
 OUTPUT_FILE = '../Database/listings2.json'
+GT_GEOCODE = (33.7756178, -84.3984737)
 
 
 # Returns the raw html of each page
@@ -67,15 +70,16 @@ def turnAddressToGeocode(address):
     geolocator = Nominatim()
     try:
         location = geolocator.geocode(address)
-        return [location.latitude, location.longitude]
+        distance = vincenty((location.latitude, location.longitude), GT_GEOCODE).miles
+        return [location.latitude, location.longitude, distance]
     # If the geocoder times out, or if the geocoder returns null, we catch it
     except (GeocoderTimedOut, AttributeError):
-        return ['null', 'null']
+        return ['null', 'null', 'null']
 
 
 # Writes all the given data to the file
 def writeToFile(data, f):
-    format = '{\n\t"name": "%s", \n\t"geocode": {\n\t\t"address": "%s", \n\t\t"lat": %s, \n\t\t"lng": %s \n\t}, \n\t"price": %s, \n\t"link": "%s"\n},'
+    format = '{\n\t"name": "%s", \n\t"geocode": {\n\t\t"address": "%s", \n\t\t"lat": %s, \n\t\t"lng": %s \n\t\t"distance": %s \n\t}, \n\t"price": %s, \n\t"link": "%s"\n},'
     f.write(format % tuple(data))
 
 
