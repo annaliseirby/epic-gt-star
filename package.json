@@ -1,0 +1,16 @@
+{
+  "name": "epicgtstar",
+  "version": "1.0.0",
+  "description": "Web App for finding cheap housing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "epic",
+    "gt",
+    "star"
+  ],
+  "author": "Rahul Zhade",
+  "license": "ISC"
+}

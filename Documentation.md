@@ -42,7 +42,7 @@ __Project Structure__
 ### Web Scrapers
 Currently, there are two webscrapers: one for the [Georgia Tech Uloop Site](https://gatech.uloop.com/ "Gatech Uloop Main"), and one for [Home Park Rentals](https://www.homeparkrentals.com/ "Home Park Rentals Main"). The code for scraping both of these sites is located at `~BackEnd/Programs/`, and are both built using the Python library [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/ "Beautiful Soup 4 Documentation"), and [Geopy](https://geopy.readthedocs.io/en/1.10.0/ "Geopy Documentation"), to turn street data into a parsable latitude/ longitude coordinate system.
 
-The Uloop scraper is a bit larger in scope and functionality than the other scraper, as this program is parsing through 20- 30 pages of listings. 
+The Uloop scraper is a bit larger in scope and functionality than the other scraper, as this program is parsing through 20- 30 pages of listings. Both programs take around the same length of time to parse through one listing, at around 2.5 seconds. Most of this time is spent in doing the tedious work of turning address strings into usable geocodes and distances that can be easily visualized in the Google Maps API.
 
 
 ### APD CSV Scraper

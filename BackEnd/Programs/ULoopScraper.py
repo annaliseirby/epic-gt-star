@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as Soup
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 
-ULOOP_URL = 'http://gatech.uloop.com/housing/?rent_min=%d&rent_max=%s&beds=0&page=%d'
+ULOOP_URL = 'http://gatech.uloop.com/housing/?rent_min=%s&rent_max=%s&beds=0&page=%d'
 OUTPUT_FILE = '../Database/listings.json'
 min_rent = 10
 max_rent = ''

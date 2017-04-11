@@ -1,4 +1,5 @@
 import requests
+import codecs
 from bs4 import BeautifulSoup as Soup
 from geopy.distance import vincenty
 from geopy.exc import GeocoderTimedOut
@@ -6,7 +7,7 @@ from geopy.geocoders import Nominatim
 
 
 MAIN_URL = 'https://www.homeparkrentals.com/listings/'
-OUTPUT_FILE = '../Database/listings2.json'
+OUTPUT_FILE = '../Database/listings2.csv'
 GT_GEOCODE = (33.7756178, -84.3984737)
 
 
@@ -34,8 +35,8 @@ def findIndividualPages(url):
 
 # Gets the data from each page
 def dataFromPage():
-    f = open(OUTPUT_FILE, 'w')
-    f.write('[')
+    f = codecs.open(OUTPUT_FILE, 'w', encoding='utf-8')
+    # f.write('[')
     allHomes = []
     for link in findIndividualPages(MAIN_URL):
         html = openFile(link)
@@ -51,7 +52,7 @@ def dataFromPage():
         data.append(link)
         writeToFile(data, f)
         allHomes.append(data)
-    f.write(']')
+    # f.write(']')
     f.close()
 
 
@@ -79,8 +80,10 @@ def turnAddressToGeocode(address):
 
 # Writes all the given data to the file
 def writeToFile(data, f):
-    format = '{\n\t"name": "%s", \n\t"geocode": {\n\t\t"address": "%s", \n\t\t"lat": %s, \n\t\t"lng": %s \n\t\t"distance": %s \n\t}, \n\t"price": %s, \n\t"link": "%s"\n},'
+    # format = '{\n\t"name": "%s", \n\t"geocode": {\n\t\t"address": "%s", \n\t\t"lat": %s, \n\t\t"lng": %s, \n\t\t"distance": %s \n\t}, \n\t"price": %s, \n\t"link": "%s"\n},'
+    format = u'"%s","%s","%s","%s","%s","%s","%s",\r\n'
     f.write(format % tuple(data))
+
 
 
 dataFromPage()
